@@ -1,0 +1,7 @@
+{
+  "name": "docker-for-java-developers",
+  "version": "0.0.1",
+  "dependencies": {
+    "reveal.js": "~2.6.1"
+  }
+}

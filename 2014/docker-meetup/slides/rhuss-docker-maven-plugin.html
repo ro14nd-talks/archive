@@ -1,0 +1,72 @@
+<section>
+<h2>rhuss/docker-maven-plugin</h2>
+<p class="first-para fragment"><b>Simple</b> configuration</p>
+<p class="fragment">Automatic <b>pull</b> of required images</p>
+<p class="fragment">Support for dynamic <b>portmapping</b></p>
+<p class="fragment">Maven <b>artifacts</b> and their dependencies should be available within the container</p>
+<p class="fragment">Support for <b>pushing</b> containers with artifacts to a container</p>
+<p class="fragment">Doing it the <b>Maven</b> way</p>
+</section>
+<section>
+  <h2>Maven Plugin Goals</h2>
+  <p class="first-para fragment">
+    <b><code>docker:start</code></b><br/>
+    Starts a container, bound by default to the <code>pre-integration-test</code> phase
+  </p>
+  <p class="fragment">
+    <b><code>docker:stop</code></b><br/>
+    Stops one (or more) container, bound by default to the <code>post-integration-test</code> phase
+  </p>
+  <p class="fragment">
+    <b><code>docker:build</code></b><br/>
+    Builds a data image
+  </p>
+  <p class="fragment">
+    <b><code>docker:push</code></b><br/>
+    Pushes data image to a registry
+  </p>
+</section>
+
+<section>
+  <h2>Configuration</h2>
+  <pre><code data-trim>
+<configuration>
+  <!-- Image to start/stop -->
+  &lt;image>consol/tomcat-7.0&lt;/image>
+
+  <!-- ${jolokia.port} will get the dynamic port -->
+  <ports>
+     <port>jolokia.port:8080</port>
+  </ports>
+  &lt;waitHttp>http://localhost:${jolokia.port}/jolokia&lt;/waitHttp>
+  <wait>10000</wait>
+
+  <!-- Location of assembly descriptor & data image name & merge mode -->
+  &lt;assemblyDescriptor>src/main/assembly.xml&lt;/assemblyDescriptor>
+  &lt;dataImage>jolokia/agents&lt;/dataImage>
+  &lt;mergeData>false&lt;/mergeData>
+</configuration>
+</code></pre>
+</section>
+<section>
+  <h2>Data Image</h2>
+  <pre><code class="xml" data-trim>
+&lt;assembly>
+  &lt;dependencySets>
+    &lt;dependencySet>
+      &lt;includes>
+        &lt;include>org.jolokia:jolokia-war&lt;/include>
+      &lt;/includes>
+      &lt;outputDirectory>.&lt;/outputDirectory>
+      &lt;outputFileNameMapping>jolokia.war&lt;/outputFileNameMapping>
+    &lt;/dependencySet>
+  &lt;/dependencySets>
+&lt;/assembly>
+  </code></pre>
+  <ul>
+    <li>Same syntax as for <b><code>maven-assembly-plugin</code></b></li>
+    <li>Predefined Descriptors</li>
+    <li>Data Image exports <b><code>/maven</code></b> as volume</li>
+    <li><b><code>mergeData</code></b>: Small data container or merged into Image</li>
+  </ul>
+</section>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>createMarkedFile</key>
+	<false/>
+	<key>sheetClusters</key>
+	<array>
+		<array>
+			<string>appserver.html</string>
+		</array>
+		<array>
+			<string>demo.html</string>
+		</array>
+		<array>
+			<string>dmp-matrix.html</string>
+		</array>
+		<array>
+			<string>docker-for-developers.html</string>
+		</array>
+		<array>
+			<string>docker-maven-plugin-history.html</string>
+		</array>
+		<array>
+			<string>list.json</string>
+		</array>
+		<array>
+			<string>rhuss-docker-maven-plugin.html</string>
+		</array>
+		<array>
+			<string>thanks.html</string>
+		</array>
+		<array>
+			<string>title.html</string>
+		</array>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,40 @@
+<section>
+<h2>Docker Appservers</h2>
+<p style="margin-top: 20px;">
+  <a href="https://registry.hub.docker.com/repos/consol/">https://registry.hub.docker.com/repos/consol/</a>
+</p>
+<p>
+  <a href="https://github.com/ConSol/docker-appserver">https://github.com/ConSol/docker-appserver</a>
+</p>
+<ul>
+  <li>Repositories holding Java Application Server Images</li>
+  <li>Deploy artifacts from <code>/maven</code> when container starts up</li>
+  <li>Available Servers:
+    <ul style="margin-top: 10px; margin-bottom: 10px;">
+      <li><b>Tomcat</b> (3.3, 4.1, 5.0, 5.5, 6.0, 7.0, 8.0)</li>
+      <li><b>Jetty</b> (4, 5, 6, 7, 8, 9)</li>
+    </ul>
+  </li>
+  <li>Planned: JBoss, Glassfish, Felix, Equinox, Karaf, ....</li>
+</ul>
+</section>
+<section>
+  <h2>registry.hub.docker.com</h2>
+  <img style="height: 550px; margin-top: 40px;" src="images/docker-hub.png" alt=""/>
+</section>
+<section>
+  <h2>Startup Script</h2>
+  <pre><code data-trim>
+#!/bin/sh
+DIR=${DEPLOY_DIR:-/maven}
+echo "Checking *.war in $DIR"
+if [ -d $DIR ]; then
+  for i in $DIR/*.war; do
+     file=$(basename $i)
+     echo "Linking $i --> /opt/tomcat/webapps/$file"
+     ln -s $i /opt/tomcat/webapps/$file
+  done
+fi
+/opt/tomcat/bin/catalina.sh run
+  </code></pre>
+</section>

@@ -1,0 +1,144 @@
+<section>
+  <h2>Docker for Developers ?</h2>
+  <div style="font-size: 130%">
+<ul style="list-style-image: url('images/arrow.svg'); text-align: left;">
+  <li class="fragment" style="padding-left: 15px;">Boost your Integration Tests</li>
+  <li class="fragment" style="padding-left: 15px; margin-top: 40px;">Ship your applications</li>
+</ul>
+    </div>
+</section>
+<section>
+  <h2>Integration Testing</h2>
+  <blockquote class="sunset">
+    Integration tests exercise applications within a <b>realistic context</b> that is as close as possible
+    to the <b>production</b> environment.
+  </blockquote>
+  <ul>
+    <li class="fragment">Applications are deployed on the <b>target platform</b>.</li>
+    <li class="fragment">Externals systems are either <b>simulated</b> or available as <b>test systems</b>.</li>
+  </ul>
+</section>
+<section>
+  <h2>Good Integration Tests are ...</h2>
+
+  <p class="first-para fragment"><b>Robust</b><br/>
+    <span class="smaller">Tests should either work always or always fail with the same error if nothing has changed.</span>
+  </p>
+  <p class="fragment"><b>Independent</b><br/>
+    <span class="smaller">Tests should have minimal external requirements, self contained builds.</span>
+  </p>
+  <p class="fragment"><b>Isolated</b><br/>
+    <span class="smaller">Tests should be able to run in parallel.</span>
+  </p>
+  <p class="fragment"><b>Fast</b><br/>
+    <span class="smaller">Tests should be blazing fast for a tight feedback loop.</span>
+  </p>
+</section>
+<section>
+  <h2>External Testsystems</h2>
+  <table style="border: none">
+    <thead>
+    <tr>
+      <td><b>?</b></td>
+      <td><b>!</b></td>
+    </tr>
+    </thead>
+    <tr class="fragment">
+      <td><b style="text-decoration: line-through">Robust</b></td>
+      <td>Test system are externally managed and configured.</td>
+    </tr>
+    <tr class="fragment">
+      <td><b style="text-decoration: line-through">Independent</b></td>
+      <td>Test systems must be installed, available and running.</td>
+    </tr>
+    <tr class="fragment">
+      <td><b style="text-decoration: line-through">Isolated</b></td>
+      <td>Parallel tests access the same test systems and might interfere.</td>
+    </tr>
+    <tr class="fragment">
+      <td><b style="text-decoration: line-through">Fast</b></td>
+      <td>Often slow because of network latency and parallel usage.</td>
+    </tr>
+  </table>
+  <p style="font-size: 120%; margin-top: 20px" class="fragment">but <em><b>close</b></em> to the real thing !</p>
+</section>
+<section>
+  <h2>Simulated (Mock) Testsystems</h2>
+  <table style="border: none">
+    <thead>
+    <tr>
+      <td><b>?</b></td>
+      <td><b>!</b></td>
+    </tr>
+    </thead>
+    <tr class="fragment">
+      <td><b>Robust</b></td>
+      <td>Can be started during the test run</td>
+    </tr>
+    <tr class="fragment">
+      <td><b>Independent</b></td>
+      <td>Can be configured declaratively (e.g. Citrus)</td>
+    </tr>
+    <tr class="fragment">
+      <td><b>Isolated</b></td>
+      <td>Often uses fixed ports (might be solved via individual configuration)</td>
+    </tr>
+    <tr class="fragment">
+      <td><b>Fast</b></td>
+      <td>Speed depends on framework and setup</td>
+    </tr>
+  </table>
+  <p style="font-size: 120%; margin-top: 20px" class="fragment">but <em><b>not</b></em> the real thing !</p>
+</section>
+<section>
+  <h2>Docker to the rescue</h2>
+  <table style="border: none">
+    <thead>
+    <tr>
+      <td><b>?</b></td>
+      <td><b>!</b></td>
+    </tr>
+    </thead>
+    <tr class="fragment">
+      <td><b>Robust</b></td>
+      <td>Each build has its dedicated container and hence its own distinguished execution context.</td>
+    </tr>
+    <tr class="fragment">
+      <td><b>Independent</b></td>
+      <td>No build external requirements except a Docker installation required.</td>
+    </tr>
+    <tr class="fragment">
+      <td><b>Isolated</b></td>
+      <td>Perfect isolation for the System Under Test.</td>
+    </tr>
+    <tr class="fragment">
+      <td><b>Fast</b></td>
+      <td>Fast container startup because of OS level virtualization.</td>
+    </tr>
+  </table>
+  <p style="font-size: 120%; margin-top: 20px" class="fragment">and it <em><b>can</b></em> be the real thing !</p>
+</section>
+<section>
+  <h2>Shipping Applications</h2>
+  <ul>
+    <li>Applications are put into (passive) <b>data container</b></li>
+    <li>Data containers are linked to the <b>target platform container</b></li>
+    <li>Applications are deployed during platform container startup</li>
+    <li>Data images (aka committed containers) are <b>pushed</b> to registries</li>
+    <li>Applications can also be <em>merged</em> together with the deployment container</li>
+  </ul>
+</section>
+<section>
+  <h2>Docker Build Integration</h2>
+  <ul>
+    <li><b>Jenkins</b> Pre- and Post-Actions for starting/stopping Docker</li>
+    <li>Executing an external process from the build via
+      <ul style="margin-top: 10px; margin-bottom: 10px">
+        <li><code>exec</code> Task in Ant</li>
+        <li><code>exec-maven-plugin</code> for Maven</li>
+      </ul>
+    </li>
+    <li>Dedicated <b>Maven</b> Plugins</li>
+    <li><b>Gradle</b> Plugins</li>
+  </ul>
+</section>

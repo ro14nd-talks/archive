@@ -1,0 +1,32 @@
+<section>
+  <h2>Wrap up</h2>
+  <p style="margin-top: 50px;">Docker can help with <b>integration test</b> issues.</p>
+  <p>Docker provides a new way for <b>shipping applications</b>.</p>
+  <p>Build support is growing.</p>
+  <p class="fragment" style="margin-top: 50px; font-size: 150%">But it's just the beginning ...</p>
+</section>
+<section>
+<h1>Thank You !</h1>
+<pre><code class="bash" data-trim>
+  docker_nuke() {
+    docker ps -q | xargs docker stop
+    docker ps -q -a | xargs docker rm
+}
+
+docker_rmi_none() {
+    docker images | grep '&lt;none>' | \
+    awk '{ print $3 }' | \
+    xargs docker rmi
+}
+
+docker_go() {
+   docker run --rm -t -i $@
+}
+</code></pre>
+  <p>
+    <a style="font-size: 50%" href="https://raw.githubusercontent.com/docker/docker/master/contrib/completion/bash/docker">https://raw.githubusercontent.com/docker/docker/master/contrib/completion/bash/docker</a>
+  </p>
+<p style="margin-top: 50px">
+  <a href="http://ro14nd.de/meetup-docker-developer-slides">http://ro14nd.de/meetup-docker-developer-slides</a>
+</p>
+ </section>

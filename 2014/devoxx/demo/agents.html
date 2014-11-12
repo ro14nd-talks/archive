@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <script src="js/jquery.js"></script>
+  <script src="js/jolokia-2.js"></script>
+  <script src="js/jolokia-simple-2.js"></script>
+
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/devoxx.css"/>
+  <link rel="stylesheet" href="css/chat.css"/>
+  <title>Agents</title>
+</head>
+<body>
+
+<button class="btn-primary" onclick="lookup()">Lookup Agents</button>
+
+<!-- List with received messages -->
+<table class="table table-striped">
+  <thead>
+  <tr>
+    <td>ID</td>
+    <td>Version</td>
+    <td>URL</td>
+  </tr>
+  </thead>
+  <tbody id="messages">
+
+  </tbody>
+</table>
+
+<script>
+  function lookup() {
+    var j4p = new Jolokia("http://localhost:8778/jolokia");
+    var agents = j4p.execute("jolokia:type=Discovery","lookupAgents");
+    agents.forEach(function(el) {
+      $("#messages").append("<tr><td>" + el.agent_id
+                            + "</td><td>" + el.agent_version + "</td><td>"
+                            + "<a href=\"" + el.url + "\">" + el.url + "</a></td></tr>");
+    })
+  }
+</script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

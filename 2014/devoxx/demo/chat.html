@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <script src="js/jquery.js"></script>
+  <script src="js/jolokia-2.js"></script>
+  <script src="js/jolokia-simple-2.js"></script>
+
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/devoxx.css"/>
+  <link rel="stylesheet" href="css/chat.css"/>
+  <title>Jolokia 2.0</title>
+</head>
+<body>
+<button class="btn-primary" onclick="newChatWindow()">New Chat</button>
+
+<!-- Input for sending the message -->
+<div>
+  <label>User</label><input id="user" type="text">
+</div>
+<div>
+  <label>Message</label><input id="msg" type="text">
+</div>
+<hr/>
+
+<!-- List with received messages -->
+<table class="table table-striped">
+  <thead>
+  <tr>
+    <td>User</td>
+    <td>Message</td>
+  </tr>
+  </thead>
+  <tbody id="messages">
+
+  </tbody>
+</table>
+
+<script>
+  var j4p = new Jolokia("http://localhost:8181/jolokia");
+  j4p.registerNotification({
+    mbean: "devoxx:type=chat",
+    callback: function(notifs) {
+      $.each(notifs.notifications,function(i,n) {
+        var d = n.userData;
+        $("#messages").append(
+            "<tr><td>" + d.user +
+            "</td><td>" + d.message + "</td></tr>");
+      });
+    }
+  });
+  j4p.start(100);
+
+  $('#msg').keypress(function (e) {
+    if (e.which == 13) {
+      e.preventDefault();
+      j4p.execute('devoxx:type=chat', 'message', $('#user').val(), $('#msg').val());
+      $('#msg').val("");
+    }});
+
+function newChatWindow() {
+  open('chat.html', '_blank',
+      "toolbar=no,location=no,status=no," +
+      "menubar=no,scrollbars=yes,resizable=yes," +
+      "width=427,height=588");
+}
+</script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

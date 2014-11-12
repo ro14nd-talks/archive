@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Jolokia Chart Demo</title>
+
+  <script src="js/jquery.js"></script>
+  <script src="js/jquery.flot.js"></script>
+  <script src="js/jquery.flot.time.js"></script>
+  <script src="js/jolokia.js"></script>
+  <script src="js/jolokia-simple.js"></script>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/devoxx.css" rel="stylesheet">
+</head>
+<body>
+
+Heap Memory :
+<p class="bg-info" id="memvalue"></p>
+<button class="btn btn-primary" onclick="gc()">Garbage Collection</button>
+<button class="btn btn-success" onclick="j4p.start(100)">Start</button>
+<button class="btn btn-danger" onclick="j4p.stop()">Stop</button>
+<div class="chart-container">
+  <div id="chart" class="chart"></div>
+</div>
+
+<script>
+
+  var j4p = new Jolokia("http://localhost:8778/jolokia");
+
+  function gc() {
+    j4p.execute("java.lang:type=Memory","gc");
+  }
+
+  var req = {
+    type:      "READ",
+    mbean:     "java.lang:type=Memory",
+    attribute: "HeapMemoryUsage",
+    path:      "used"
+  };
+
+  var data = [];
+
+  j4p.register(
+      function(resp) {
+        $("#memvalue").text(Math.round(resp.value / (1024 * 1024)) + " MB");
+        data.push([resp.timestamp, resp.value]);
+        $.plot("#chart",[data],{ xaxis : { mode: "time" }});
+      },req);
+  j4p.start(500);
+
+
+
+</script>
+
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

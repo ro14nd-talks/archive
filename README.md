@@ -9,4 +9,4 @@
 
 # 2015
 
-* [JSR-363: On the Road to a new JEE Management Standard](https://ro14nd.de/talks/2015/javaland-jsr-373.pdf) - Phantasialand, Brühl, 2015
+* [JSR-363: On the way to a new Java EE Management Standard](https://ro14nd.de/talks/2015/javaland-jsr-373.pdf) - Phantasialand, Brühl, 2015

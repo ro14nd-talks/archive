@@ -6,3 +6,7 @@
 * [Docker for Java Developers](http://ro14nd.de/talks/2014/docker-onedaytalk.pdf) - JBoss OneDayTalk, 2014, Germering
 * [Docker für Java Entwickler](http://ro14nd.de/talks/2014/wjax-docker-fuer-entwickler.pdf) - W-JAX14, 2014, Munich
 * [Spicing up JMX with Jolokia](http://ro14nd.de/talks/2014/devoxx/jolokia-devoxx-2014.pdf) - Devoxx 2014, Antwerpen ([Demo code](http://ro14nd.de/talks/2014/devoxx/jolokia-devoxx-2014-demo.tgz))
+
+# 2015
+
+* [JSR-363: On the Road to a new JEE Management Standard](https://ro14nd.de/talks/2015/javaland-jsr-373.pdf) - Phantasialand, Brühl, 2015

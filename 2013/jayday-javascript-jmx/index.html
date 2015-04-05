@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>The Beauty and the Beast: JavaScript meets JMX</title>
+
+	<meta name="description" content="This presentation has been given at JayDay 2013 and demonstrates a JavaScript based remote access to JMX">
+	<meta name="author" content="Roland Huss" />
+	<meta name="viewport" content="width=device-width, maximum-scale=1.0, initial-scale=1.0, user-scalable=yes" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+  <link rel="stylesheet" href="components/foundation/foundation.css"/>
+
+  <link rel="stylesheet" href="components/codemirror/lib/codemirror.css">
+  <link rel="stylesheet" href="components/codemirror/theme/solarized.css">
+
+  <link rel="stylesheet" href="cubism-demo.css"/>
+
+  <link rel="stylesheet" href="components/jmpress/basic-animation.css"/>
+	<link href="jayday-2013.css" rel="stylesheet" type="text/css" />
+  <link href="code-examples.css" rel="stylesheet" type="text/css" />
+  <link href="layout.css" rel="stylesheet" type="text/css"/>
+
+</head>
+<body>
+
+<div id="jayday2013">
+
+  <!-- Title-Page -->
+  <div id="home" style="background-image: url('assets/img/lovemonster_bg.jpg')" class="home step slide title">
+    <div id="title-author">Roland Huß, JayDay 2013</div>
+    <div class="stack-center heading">
+      <div class="stacked-center heading">
+        <h2>The Beauty and the Beast:</h2>
+        <h1>JavaScript<br/>meets<br/>JMX</h1>
+      </div>
+    </div>
+    <div id="titlefooter">All artwork by </div>
+	</div>
+
+  <div class="corp step slide basic" data-y="-1000" data-z="-1000" data-rotate-y="90" data-scale="0.1">
+    <h1>roland@consol.de</h1>
+    <ul>
+      <li data-jmpress="fade">Developer and Architect @ ConSol
+        <ul>
+          <li>Head of Research & Development</li>
+          <li>Open Source Monitoring (Nagios)</li>
+          <li>www.consol.de (or visit our JayDay booth)</li>
+        </ul>
+      </li>
+      <li data-jmpress="fade">Open Source
+        <ul>
+          <li>roland@cpan.org</li>
+          <li>https://github.com/rhuss</li>
+          <li>www.jolokia.org</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+
+  <div style="background: url('assets/img/dude_bg.jpg')"
+       class="javascript title step slide" data-y="0" data-x="1100">
+    <div class="stack-center heading">
+      <div class="stacked-center heading">
+        <h1>JavaScript</h1>
+      </div>
+    </div>
+  </div>
+
+  <div class="javascript title step slide" data-y="800" data-x="1100">
+    <h1>History</h1>
+    <ul style="margin: -20px">
+      <li data-jmpress="fade"><div class="slide-logo" style="width: 250px; margin-top: -100px; margin-right: -40px; margin-left: 100px;">
+      <img src="assets/img/brendan_eich_transparent.png"/>
+    </div>
+    1995 - Brendan Eich did it for Netscape:
+        <ul>
+          <li>Ten days in May: "Mocha" for form validation, image rollovers, ....</li>
+          <li>September: "LiveScript"</li>
+          <li>December: "JavaScript" (marketing driven deal with Sun)</li>
+        </ul>
+      </li>
+      <li data-jmpress="fade">1999 - Standardisation as ECMA Script 3 </li>
+      <li data-jmpress="fade">2005 - The Ajax revolution</li>
+      <li data-jmpress="fade">2008 - ES4, 2009 - ES5, 2014 (?) - Harmony (ES6, ES7)</li>
+    </ul>
+  </div>
+
+  <div class="javascript title step slide" data-y="1600" data-x="1100">
+    <div class="slide-logo" style="width: 350px">
+      <img src="assets/img/goodparts.jpg"/>
+    </div>
+    <h1>The Beast</h1>
+    <ul>
+      <li data-jmpress="fade">Ill designed language features because of the 'rush'
+        <ul>
+          <li>Implicit conversion for <code>==</code></li>
+          <li><code>with</code> statement leads to confusion</li>
+          <li><code>eval</code> is slow and has side effects</li>
+        </ul>
+      </li>
+      <li data-jmpress="fade">Slow and insecure (at the beginning)</li>
+      <li data-jmpress="fade">Typeless</li>
+    </ul>
+  </div>
+
+  <div class="javascript title step slide" data-y="2400" data-x="1100">
+    <div class="slide-logo">
+      <img src="assets/img/firefox.png"/>
+    </div>
+    <h1>The Beauty</h1>
+    <ul>
+      <li data-jmpress="fade">Ubiquitous on the client (kicking out
+        Flash, Applets, Silverlight)</li>
+      <li data-jmpress="fade">Rising on the server (node.js)</li>
+      <li data-jmpress="fade">Highly optimized</li>
+      <li data-jmpress="fade">Evolution to a full featured application platform</li>
+      <li data-jmpress="fade">Enormously fast growing ecosystem with a great momentum (HTML 5, MVC Frameworks, jQuery, ...)</li>
+    </ul>
+  </div>
+
+  <div style="background: url('assets/img/pirate_bg.jpg')"
+       class="jmx title step slide" data-y="0" data-x="2200">
+    <div class="stack-center heading">
+      <div class="stacked-center heading">
+        <h1>JMX</h1>
+      </div>
+    </div>
+  </div>
+
+  <div class="jmx title step slide" data-y="800" data-x="2200">
+    <div class="slide-logo" style="width: 300px">
+      <img src="assets/img/mcmanus.png"/>
+      <div style="font-size: 0.5em">Eamonn McManus, Spec Lead 2000 - 2009</div>
+    </div>
+    <h1>JMX</h1>
+    <ul>
+      <li data-jmpress="fade">1995: Development of JMAPI</li>
+      <li data-jmpress="fade">2000: JSR-3 - Java Management Extensions (JMX)</li>
+      <li data-jmpress="fade">JMX Operations
+        <ul>
+          <li>Attribute Reading</li>
+          <li>Attribute Writing</li>
+          <li>Execution of Operations</li>
+          <li>Notifications</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+
+  <div class="jmx title step slide" data-y="1600" data-x="2200">
+    <h1>Architecture</h1>
+    <div class="stack-center">
+      <div class="stacked-center">
+        <img style="margin-top: 150px; width:700px" src="assets/img/architecture-without-jolokia.png"/>
+      </div>
+    </div>
+  </div>
+
+  <div class="jmx title step slide" data-y="2400" data-x="2200">
+    <div class="slide-logo">
+      <img src="assets/img/duck.png"/>
+    </div>
+    <h1>The Beauty</h1>
+    <ul>
+      <li data-jmpress="fade">Available out of the box since Java 5</li>
+      <li data-jmpress="fade">Support provided by all JEE Servers</li>
+      <li data-jmpress="fade">Simple though flexible programing model</li>
+      <li data-jmpress="fade">Single established management and monitoring standard for JVM based platforms</li>
+    </ul>
+  </div>
+
+  <div class="jmx title step slide" data-y="3200" data-x="2200">
+    <div class="slide-logo">
+      <img src="assets/img/burn.png"/>
+    </div>
+    <h1>The Beast</h1>
+    <ul>
+      <li data-jmpress="fade">JMX Remote API (JSR-160)
+        <ul>
+          <li data-jmpress="fade">Firewalls are impossible to traverse (RMI)</li>
+          <li data-jmpress="fade">Strong typing increases maintenance overhead</li>
+          <li data-jmpress="fade">Security is typically "all-or-nothing" without detailed authorization</li>
+          <li data-jmpress="fade"><strong>Java only!</strong></li>
+        </ul>
+      </li>
+      <li data-jmpress="fade">Development stalled
+        <ul><li>JMX 2.0: Planned for Java 7, postponed at least to Java 9 (est. 2016)</li></ul>
+      </li>
+    </ul>
+  </div>
+
+  <div style="background: url('assets/img/cowboy_bg.jpg')"
+       class="jolokia title step slide" data-y="0" data-x="3300">
+    <div class="stack-center heading">
+      <div class="stacked-center heading">
+        <h1>Jolokia</h1>
+      </div>
+    </div>
+  </div>
+
+  <div class="jolokia title step slide" data-y="800" data-x="3300">
+    <div style="margin-top: 0; margin-right: 0; width: 400px" class="slide-logo">
+      <img src="assets/img/chili.png"/>
+    </div>
+    <h1>Jolokia</h1>
+    <ul>
+      <li data-jmpress="fade">Jolokia is remote <strong>JMX</strong> with <strong>JSON over HTTP</strong></li>
+      <li data-jmpress="fade">Agent based approach</li>
+      <li data-jmpress="fade">Fixes JSR-160 problems:
+        <ul>
+          <li>Firewall friendly thanks HTTP</li>
+          <li>No typing thanks JSON</li>
+          <li>Fine grained security policies</li>
+          <li>Client libraries for Perl, Java and ... <strong data-jmpress="fade">JavaScript</strong></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+
+  <div class="jolokia title step slide" data-y="1600" data-x="3300">
+    <h1>Architecture</h1>
+    <div class="stack-center">
+      <div class="stacked-center">
+        <img style="margin-top: 150px; width:700px" src="assets/img/architecture.png"/>
+      </div>
+    </div>
+  </div>
+
+  <div class="jolokia title step slide" data-y="2400" data-x="3300">
+    <div class="slide-logo">
+      <img src="assets/img/agent.png"/>
+    </div>
+    <h1>Agents</h1>
+    <ul>
+      <li data-jmpress="fade">JEE Agent (Web-ARchive)
+        <ul>
+          <li>Jetty, Tomcat, JBoss, Glassfish, Weblogic, Websphere, Geronimo, .... </li>
+        </ul>
+      </li>
+      <li data-jmpress="fade">OSGi Bundle
+        <ul>
+          <li>Felix, Equinox, Karaf, Virgo, ...</li>
+        </ul>
+      </li>
+      <li data-jmpress="fade">JVM Agent
+        <ul>
+          <li>Any Oracle/Sun/OpenJDK JVM >= 1.6</li>
+        </ul>
+      </li>
+      <li data-jmpress="fade">Mule Agent</li>
+    </ul>
+  </div>
+
+  <div id="quickstart-video-slide" class="jolokia title step slide" data-y="3200" data-x="3300">
+    <div class="stack-center">
+      <div class="stacked-center">
+        <video id="quickstart-video" width="851" height="602" autoplay controls class="jolokia boxshadow">
+          <source src="assets/movie/quickstart.webm" type='video/webm'>
+        </video>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="jolokia title step slide" data-y="4000" data-x="3300">
+    <div class="slide-logo">
+      <img src="assets/img/extras.png"/>
+    </div>
+    <h1>Jolokia Extras</h1>
+    <ul>
+      <li data-jmpress="fade">Bulk Requests</li>
+      <li data-jmpress="fade">JSR-160 Proxy</li>
+      <li data-jmpress="fade">Tools
+        <ul>
+          <li><code>j4psh</code> : Unix like shell with command completion</li>
+          <li><code>jmx4perl</code>: CLI tool for scripting</li>
+          <li><code>check_jmx4perl</code>: Nagios plugin</li>
+          <li><code>jolokia</code>: Agent management tool</li>
+          <li><code>AccessJ</code>: iPhone Client</li>
+          <li><code>hawt.io</code>: HTML-5 Console</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+
+  <div style="background: url('assets/img/fish_bg.jpg')"
+       class="javascript title step slide" data-y="0" data-x="4400">
+    <div class="stack-center heading">
+      <div class="stacked-center heading">
+        <h1>Demo Time !</h1>
+      </div>
+    </div>
+  </div>
+
+  <div class="demo-slide step slide" data-x="4400" data-y="800" data-z="0">
+    <h1>Basic stuff</h1>
+    <div>
+      <div id="demo-version" data-unload="j4p.stop()" class="demo boxshadow"></div>
+      <textarea id='demo-version-code' class="demo-code boxshadow"><pre id="resp"/>
+<skript>
+
+</skript></textarea>
+    </div>
+    <div class="demo-buttons">
+      <button id='demo-version-1' class="demo-sample round">Version</button>
+    </div>
+
+    <script id="demo-version-1-code" type="text/demo-code"><strong id="app"></strong><p>
+<pre id="v"></pre>
+
+<skript>
+  var j4p = new Jolokia(url);
+  var version =
+      j4p.request({"type": "version"}).value;
+  $("#app").text(version.info.product + " " +
+                version.info.version);
+  $("#v").text(
+    JSON.stringify(version,null,1)
+  );
+</skript></script>
+  </div>
+
+  <div class="demo-slide step slide" data-x="4400" data-y="1600">
+    <h1>More ...</h1>
+    <div>
+      <div id="demo-memory" data-unload="jolokia.stop()" class="demo boxshadow"></div>
+      <textarea id='demo-memory-code' class="demo-code boxshadow"><h2>Memory: <span id="mem"/></h2>
+<script>
+
+</script></textarea>
+    </div>
+    <div class="demo-buttons">
+      <button id='demo-memory-1' class="demo-sample round">Used Memory</button>
+      <button id='demo-memory-2' class="demo-sample round">Garbage Collection</button>
+      <button id='demo-memory-3' class="demo-sample round">Periodic Memory</button>
+    </div>
+    <!-- Demo Code -->
+
+    <script id="demo-memory-1-code" type="text/demo-code"><h2>Memory: <span id="mem"/></h2>
+<skript>
+  var jolokia = new Jolokia(url);
+  $("#mem").text(
+     mb(jolokia.getAttribute(
+        "java.lang:type=Memory",
+        "HeapMemoryUsage",
+        "used")));
+</skript></script>
+
+    <script id="demo-memory-2-code" type="text/demo-code"><h2>Memory: <span id="mem"/></h2>
+<button id="gc">Garbage Collection</button>
+<skript>
+ var jolokia = new Jolokia(url);
+ function update() {
+   $("#mem").text(
+     mb(jolokia.getAttribute(
+       "java.lang:type=Memory",
+       "HeapMemoryUsage",
+       "used")));
+ };
+ update();
+ $("#gc").click(function() {
+   jolokia.execute("java.lang:type=Memory",
+                   "gc");
+   update();
+ });
+</skript></script>
+    <script id="demo-memory-3-code" type="text/demo-code"><h2>Memory: <span id="mem"/></h2>
+<skript>
+  var jolokia = new Jolokia(url);
+  jolokia.register(function(resp) {
+    $("#mem").text(mb(resp.value));
+  },{
+    "type": "read",
+    "mbean": "java.lang:type=Memory",
+    "attribute": "HeapMemoryUsage",
+    "path": "used"
+  });
+  jolokia.start(1000);
+</skript></script>
+  </div>
+
+  <div class="demo-slide step slide" data-x="4400" data-y="2400">
+    <div class="slide-logo">
+      <img src="assets/img/numbers.png"/>
+    </div>
+    <h1>Cubism.js</h1>
+    <ul>
+      <li data-jmpress="fade">Charting library based on <code>d3.js</code></li>
+      <li data-jmpress="fade"><code>d3.js</code>: Data visualization in JavaScript (<strong>D</strong>ata <strong>D</strong>riven
+        <strong>D</strong>ocuments)</li>
+      <li data-jmpress="fade"><code>jolokia-cubism.js</code>: Jolokia as a datasource for cubism</li>
+      <li data-jmpress="fade">Horizon Charts allow many narrow, high-resolution charts with the help of color encoding
+        <ul>
+          <li><a style="color: #222;" href="http://bit.ly/horizon-charts">http://bit.ly/horizon-charts</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+
+  <div style="padding: 0px 0px; background-color: #fff" class="step slide" data-x="4400" data-y="3200">
+    <div id="cubism-demo"></div>
+  </div>
+
+  <div class="demo-slide step slide" data-x="4400" data-y="4000">
+    <h1 style="margin-top: -5px;">Jolokia Cubism</h1>
+    <div class="wide">
+      <textarea id='demo-chart-code' data-script="true" class="demo-code boxshadow">var step = 100;
+var context = cubism.context().size(718).step(step)
+              .serverDelay(0).clientDelay(0);
+var jolokia = context.jolokia(url);</textarea>
+      <div id="demo-chart" style="padding: 0; height: 150px;" data-unload="jolokia.stop(); context.stop();" class="demo boxshadow"></div>
+      <div class="demo-buttons" >
+        <button id='demo-chart-1' style="font-size: 0.4em" class="demo-sample round">Memory</button>
+        <button id='demo-chart-2' style="font-size: 0.4em" class="demo-sample round">With GC</button>
+        <button id='demo-chart-3' style="font-size: 0.4em" class="demo-sample round">Random</button>
+      </div>
+    </div>
+
+    <!-- Demo Code -->
+    <script id="demo-chart-1-code" type="text/demo-code">var step = 100;
+var context = cubism.context().size(718).step(step)
+              .serverDelay(0).clientDelay(0);
+var jolokia = context.jolokia(url);
+var metricMem =
+ jolokia.metric({ type: 'read',
+             mbean: 'java.lang:type=Memory', attribute: 'HeapMemoryUsage',
+             path: 'used'});
+d3.select("#demo-chart").call(function(div) {
+    div.append("div")
+        .data([metricMem])
+        .call(context.horizon().height(150))
+});
+jolokia.start(step);
+context.start();</script>
+  <script id="demo-chart-2-code" type="text/demo-code">var step = 100;
+var context = cubism.context().size(718).step(step)
+              .serverDelay(0).clientDelay(0);
+var jolokia = context.jolokia(url);
+var metricMem =
+ jolokia.metric({ type: 'read', mbean: 'java.lang:type=Memory',
+             attribute: 'HeapMemoryUsage', path: 'used'});
+var gcCount = jolokia.metric({ type:"read", attribute:"CollectionCount",
+                mbean:"java.lang:name=PS Scavenge,type=GarbageCollector"},
+                { delta: step });
+d3.select("#demo-chart").call(function(div) {
+    div.append("div").data([metricMem]).call(context.horizon().height(110));
+    div.append("div").data([gcCount]).call(context.horizon().height(40));
+});
+jolokia.start(step); context.start();</script>
+    <script id="demo-chart-3-code" type="text/demo-code">var step = 100;
+var context = cubism.context().size(718).step(step)
+             .serverDelay(0).clientDelay(0);
+var jolokia = context.jolokia(url);
+var metricMem =
+ jolokia.metric({ type: 'exec',
+                 mbean: 'jayday:type=graph',
+             operation: 'nextValue',
+             arguments: [ 0 ]});
+d3.select("#demo-chart").call(function(div) {
+    div.append("div")
+        .data([metricMem])
+        .call(context.horizon().height(150))
+});
+jolokia.start(step); context.start();</script>
+  </div>
+
+  <!-- ============================= Chat Demo -->
+
+  <div style="background: url('assets/img/zombie_bg.jpg')"
+       class="javascript title step slide" data-y="0" data-x="5500">
+    <div style="margin-top: 150px">
+        <h1>Jolokia 2.0</h1>
+    </div>
+  </div>
+
+  <div class="step slide jolokia2" data-x="5500" data-y="800">
+    <div class="slide-logo">
+      <img src="assets/img/system.png"/>
+    </div>
+    <h1>Jolokia Services</h1>
+    <ul>
+      <li data-jmpress="fade">Modularization of Jolokia Services</li>
+      <li data-jmpress="fade">Dynamic (OSGi) and Static (Classpath)  </li>
+      <li data-jmpress="fade">Backend <code>RequestDispatcher</code>:
+        <ul>
+          <li>Local JMX</li>
+          <li>JSR-160 Proxy</li>
+          <li>Spring-Container</li>
+          <li>Zookeeper ....</li>
+        </ul>
+      </li>
+      <li data-jmpress="fade"><code>Converters</code> for various value/argument types.</li>
+    </ul>
+  </div>
+
+
+  <div class="step slide jolokia2" data-x="5500" data-y="1600">
+    <div class="slide-logo">
+      <img src="assets/img/postbox.png"/>
+    </div>
+    <h1>Jolokia Notifications</h1>
+    <ul>
+      <li data-jmpress="fade">Notification Backends:
+        <ul>
+          <li>Pull-Backend (implemented)</li>
+          <li>Atmosphere Push</li>
+          <li>Pure Web-Socket</li>
+          <li>JMS</li>
+        </ul>
+      </li>
+      <li data-jmpress="fade">All registrations are handled and managed by the agent</li>
+    </ul>
+    <div>
+
+    </div>
+  </div>
+
+  <div class="step slide java jolokia2" data-x="5500" data-y="2400">
+    <h1>JMX Notification Broadcaster</h1>
+    <textarea id="jmx-chat-code">
+
+public class Chat extends NotificationBroadcasterSupport implements ChatMBean  {
+
+    private AtomicInteger seqNumber = new AtomicInteger();
+
+    public Chat() throws Exception {
+        super(new MBeanNotificationInfo(new String[] {"jayday.chat"},
+                                        Notification.class.getName(),
+                                        "Chat notification"));
+    }
+
+    public void message(String who, String message) {
+        Notification notification =
+             new Notification("jayday.chat",this,seqNumber.getAndIncrement());
+
+        Map data = new HashMap();
+        data.put("user",who);
+        data.put("message",message);
+        notification.setUserData(data);
+
+        sendNotification(notification);
+    }
+}
+</textarea>
+  </div>
+
+  <div class="step slide jolokia2" data-x="5500" data-y="3200">
+    <div>
+      <div class="chat-demo boxshadow">
+        <fieldset>
+          <legend>Chat "Beast"</legend>
+          <div class="row">
+            <div class="large-12 columns">
+              <table id="messages">
+              </table>
+            </div>
+          </div>
+          <div class="row">
+            <div class="large-12 columns">
+              <label>Message</label>
+              <input id="msg" type="text">
+            </div>
+          </div>
+        </fieldset>
+      </div>
+      <div id="demo-chat" data-unload="j4p.stop(); j4p.unregister()" style="display: none">
+      </div>
+      <textarea id='demo-chat-code' data-script="true" class="demo-code boxshadow"></textarea>
+    </div>
+    <div class="demo-buttons">
+      <button id='demo-chat-1' class="demo-sample round">Register Notifs</button>
+      <button id='demo-chat-2' class="demo-sample round">Send Message</button>
+      <button id='demo-chat-3' class="demo-sample round">All</button>
+      <button class="success demo-sample" onclick="open('chat.html', '_blank', 'toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=yes,width=550,height=455')">The Beauty</button>
+      <button class="alert demo-sample" onclick="mrSmith()">Mr. Smith</button>
+    </div>
+    <script id="demo-chat-1-code" type="text/demo-code">var j4p = new Jolokia(url);
+j4p.registerNotification({
+  mbean: "jayday:type=chat",
+  callback: function(notifs) {
+    // Provide callback when
+    // notification comes in
+  }
+});
+// Start polling loop ....</script>
+    <script id="demo-chat-2-code" type="text/demo-code">---
+var j4p = new Jolokia(url);
+j4p.registerNotification({
+  mbean: "jayday:type=chat",
+  callback: function(notifs) {
+   $.each(notifs.notifications,function(i,n) {
+     var d = n.userData;
+     appendRow(d.user, d.message);
+   });
+  }});
+j4p.start(1000);
+
+$msg = $('#msg');
+$msg.keypress(function (e) {
+ if (e.which == 13) {
+   e.preventDefault();
+   // Goto agent ....
+   $msg.val("");
+ }});</script>
+    <script id="demo-chat-3-code" type="text/demo-code">var j4p = new Jolokia(url);
+j4p.registerNotification({
+  mbean: "jayday:type=chat",
+  callback: function(notifs) {
+   $.each(notifs.notifications,function(i,n) {
+     var d = n.userData;
+     appendRow(d.user, d.message);
+   });
+  }});
+j4p.start(1000);
+
+$msg = $('#msg');
+$msg.keypress(function (e) {
+ if (e.which == 13) {
+   e.preventDefault();
+   j4p.execute("jayday:type=chat","message",
+               "Beast",$msg.val());
+   $msg.val("");
+ }});</script>
+    <script>
+      function appendRow(user,message) {
+        $("#messages").append("<tr><td>" + user + "</td><td>" + message + "</td></tr>");
+      }
+
+      function mrSmith() {
+        for (var i = 0; i < 3; i++) {
+          for (var j = 0; j < 2; j++) {
+            open('mrsmith.html', '_blank',
+                'toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=yes,' +
+                'width=400,height=350,' + 'top=' + (j * 350) + ',left=' + (i * 300));
+          }
+        }
+      }
+    </script>
+  </div>
+
+
+  <div style="background: url('assets/img/bird_bg.jpg')"
+       class="hawtio title step slide" data-y="0" data-x="6600">
+    <div class="stack-center heading">
+      <div class="stacked-center heading">
+        <h1>hawt.io</h1>
+      </div>
+    </div>
+  </div>
+
+  <div class="hawtio title step slide" data-y="800" data-x="6600">
+    <div class="slide-logo">
+      <img src="assets/img/hawtio-logo.png"/>
+    </div>
+    <h1>hawt.io</h1>
+    <ul>
+      <li data-jmpress="fade">Lightweight and modular HTML-5 management console</li>
+      <li data-jmpress="fade">Frontend for RedHat's iPaaS solution</li>
+      <li data-jmpress="fade">Project-Lead: James Strachan, RedHat</li>
+      <li data-jmpress="fade">Plugins:
+        <ul>
+          <li>JMX</li>
+          <li>Camel</li>
+          <li>Dashboard, ....</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+
+
+  <div class="hawtio title step slide" data-y="1600" data-x="6600">
+    <div class="slide-logo">
+      <img src="assets/img/hawtio-logo.png"/>
+    </div>
+    <h1>Technology</h1>
+    <ul>
+      <li>Angular.js</li>
+      <li>TypeScript</li>
+      <li>Jolokia</li>
+      <li>d3.js, cubism.js</li>
+      <li>Twitter Bootstrap</li>
+      <li>Screencast: <a href="https://vimeo.com/68442425">https://vimeo.com/68442425</a></li>
+    </ul>
+  </div>
+
+  <div style="background: url('assets/img/monster_bg.jpg')"
+       class="end title step slide" data-y="0" data-x="7700">
+    <h1 style="margin-top: -10px; font-size: 64px !important">Who's now the Beauty, who's the beast ?</h1>
+    <div style="width: 600px">
+      <ul>
+        <li data-jmpress="fade">Variant 1: Beastly JavaScript, beautiful JMX</li>
+        <li data-jmpress="fade">Variant 2: JavaScript is the hero, JMX dies off</li>
+      </ul>
+    </div>
+  </div>
+
+
+  <div style="background: url('assets/img/monster_bg.jpg')"
+       class="end title step slide" data-y="800" data-x="7700">
+    <h1>The full truth</h1>
+    <div style="font-size: 1.6em">
+      <ul>
+        <li data-jmpress="fade">JavaScript is the<br>Beauty <strong style="color: #821311;">and</strong> the Beast</li>
+        <li data-jmpress="fade">JMX is just an API</li>
+      </ul>
+    </div>
+  </div>
+
+
+  <!-- ENDE -->
+  <div style="background: url('assets/img/rockn_roll_bg.jpg')"
+       class="veryend title step slide" data-x="3850" data-y="2000" data-scale="0.1" data-rotate-z="180" data-rotate-y="180" data-rotate-y="180">
+    <div style="width: 800px; position: absolute; left: 10px; bottom: 18px; margin-top: 10px; color: #000;">
+      All artwork by <a href="http://www.artcore-illustrations.de/">Artcore Illustrations</a>, released under <a href="http://creativecommons.org/licenses/by-nc-nd/3.0/">(CC BY-NC-ND 3.0)</a>
+    </div>
+    <div style="position: absolute; left: 600px; bottom: 18px; color: #000;"><a
+        href="http://www.jolokia.org/jayday-2013">http://www.jolokia.org/jayday-2013</a></div>
+  </div>
+
+  <!-- Overview -->
+  <div id="overview" class="step" data-x="3850" data-y="2500" data-scale="9">
+
+  </div>
+</div>
+
+<div class="hint">
+    <p>Use arrow keys to navigate, "o" for an overview</p>
+</div>
+
+<script type="text/javascript" src="components/jquery/jquery.js"></script>
+<script type="text/javascript" src="components/jmpress/jmpress.js"></script>
+
+<script src="components/codemirror/lib/codemirror.js" type="text/javascript"></script>
+<script src="components/codemirror/mode/xml/xml.js"></script>
+<script src="components/codemirror/mode/javascript/javascript.js"></script>
+<script src="components/codemirror/mode/css/css.js"></script>
+<script src="components/codemirror/mode/htmlmixed/htmlmixed.js"></script>
+<script src="components/codemirror/mode/clike/clike.js"></script>
+<script src="components/codemirror/addon/edit/matchbrackets.js"></script>
+<script src="components/codemirror/addon/edit/closebrackets.js"></script>
+
+<script src="components/d3/d3.js"></script>
+<script src="components/cubism/cubism.v1.js"></script>
+
+<script src="cubism-demo.js"></script>
+
+<script src="jolokia.js"></script>
+<script src="jolokia-simple.js"></script>
+<script src="jolokia-cubism.js"></script>
+
+<script src="code-examples.js"></script>
+<script src='global.js'></script>
+<script type="text/javascript">
+$(function() {
+  var ignoreKeys = [
+        32 // space
+				,37 // left
+				,38 // up
+				,39 // right
+				,40 // down
+        ,187 // =
+        ,189 // -
+        ,79
+  ];
+  $('#jayday2013').jmpress(
+      {
+        keyboard: {
+          keys: {
+            189: ['select', '#overview'],
+            79: ['select', "#overview"]
+          },
+          ignore: {
+            "INPUT" : ignoreKeys,
+            "TEXTAREA" : ignoreKeys
+          }
+        }
+      }
+  );
+
+  $('#quickstart-video-slide')
+      .on('enterStep', function(event) {
+        $('#quickstart-video').each(function(){
+          var that = this;
+          that.controls = false;
+          window.setTimeout(function() {
+            that.play();
+            that.controls = true;
+          }, 3000);
+        });
+      })
+      .on('leaveStep', function(event) {
+        $('#quickstart-video').each(function(){
+          this.pause();
+        });
+      });
+});
+
+CodeMirror.fromTextArea($("#jmx-chat-code").get(0),
+    {
+      lineNumbers:    true,
+      mode:           "text/x-java",
+      viewportMargin: Infinity,
+      matchBrackets: true
+    });
+
+
+</script>
+</body>

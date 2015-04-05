@@ -1,0 +1,25 @@
+body {
+    background: #fff;
+    font-size: 24px;
+}
+
+div.chat-demo {
+    margin:  5px auto;
+    font-size: 24px;
+    border: 1px #333 solid;
+    padding: 10px 40px;
+    height: auto;
+    width: 95%;
+    overflow-y: hidden;
+    overflow-x: auto;
+    min-height: 30px;
+    background-color: #EEFEEE;
+}
+ fieldset legend {
+     background-color: #EEFEEE;
+ }
+
+ table {
+     width: 100%;
+     font-size: 24px;
+ }

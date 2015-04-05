@@ -1,0 +1,26 @@
+.stack-center {
+	text-align: center;
+	white-space: nowrap;
+	position: absolute;
+	top: 	2rem;
+	right: 	2rem;
+	bottom: 2rem;
+    left: 2rem;
+}
+.heading {
+	left: 	25rem !important;
+}
+.stack-center:before {
+	content: "";
+	height: 100%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.stack-center .stacked-center {
+	white-space: normal;
+	max-width: 100%;
+	max-height: 100%;
+	display: inline-block;
+	vertical-align: middle;
+}

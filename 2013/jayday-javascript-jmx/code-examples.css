@@ -1,0 +1,166 @@
+.title-logo {
+    padding: 20px;
+    background-color: #eee;
+    text-shadow: 1px 1px 0 #000000;
+}
+
+
+
+#ajswrap { width: 800px; height: 545px; padding: 0; overflow: hidden; }
+#ajsiframe { width: 2400px; height: 1560px; border: 1px solid black; }
+#ajsiframe {
+    zoom: 0.5;
+    -moz-transform: scale(0.7);
+    -moz-transform-origin: 0 0;
+    -o-transform: scale(0.7);
+    -o-transform-origin: 0 0;
+    -webkit-transform: scale(0.7);
+    -webkit-transform-origin: 0 0;
+}
+
+/* Codemirror overwrite */
+.CodeMirror {
+    font-family: "Lucida Console",monospace;
+    font-size: 20px;
+    border: 1px solid #333;
+    height: auto;
+    width: 63%;
+    -moz-box-shadow: 10px 10px 5px #888;
+    -webkit-box-shadow: 10px 10px 5px #888;
+    box-shadow: 10px 10px 5px #888;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    line-height: 1.3em;
+}
+
+div.CodeMirror span.CodeMirror-matchingbracket {
+    color: #eee;
+    background-color: #5890AD;
+}
+
+.java .CodeMirror {
+    width: 100%;
+    font-size: 18px;
+}
+
+div.wide .CodeMirror {
+    width: 100%
+}
+
+.CodeMirror-scroll {
+    overflow-y: hidden;
+    overflow-x: auto;
+}
+
+div.demo {
+    float:right;
+    font-size: 24px;
+    width: 34%;
+    border: 1px #333 solid;
+    padding: 10px 40px;
+    height: auto;
+    overflow-y: hidden;
+    overflow-x: auto;
+    min-height: 30px;
+    background-color: #EEFEEE;
+}
+
+div.demo h2 {
+    font-size: 45px;
+}
+div.demo button {
+    margin-top: 20px;
+    padding: 5px;
+}
+
+div.demo span {
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  line-height: 1;
+  white-space: nowrap;
+  display: inline-block;
+  position: relative;
+  padding: 0.1875em 0.625em 0.25em;
+  font-size: 0.875em;
+  background-color: #2ba6cb;
+  color: white; 
+}
+
+div.chat-demo {
+    float:right;
+    font-size: 24px;
+    width: 34%;
+    border: 1px #333 solid;
+    padding: 0px 10px;
+    height: auto;
+    overflow-y: hidden;
+    overflow-x: auto;
+    min-height: 30px;
+    background-color: #d5edf8;
+}
+
+.chat-demo legend {
+    background-color: #d5edf8;
+}
+.chat-demo fieldset {
+    padding: 0;
+    border-color: #fff;
+}
+
+.chat-demo table {
+    margin-top: 15px;
+    width: 100%;
+}
+
+div.wide div.demo-code {
+    float: none;
+    width: 100%;
+}
+
+div.wide div.demo {
+    margin-top: 20px;
+    height: 100px;
+    position: absolute;
+    bottom: 0px;
+    float: none;
+    width: 720px;
+    margin-bottom: 20px;
+}
+
+.demo pre {
+    font-size: 20px;
+}
+
+.demo input {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+
+div.demo-buttons {
+    position: absolute;
+    bottom: 0;
+}
+
+div.wide div.demo-buttons {
+    position: absolute;
+    right: 0;
+    float: right;
+    width: 180px;
+}
+
+div.wide div.demo-buttons button {
+    margin-right: 0;
+    margin-bottom: 10px;
+}
+
+div.demo-buttons button {
+    margin-right: 20px;
+    padding: 16px;
+}
+
+.demo ul {
+    margin-top: 20px;
+    font-size: 24px;
+}

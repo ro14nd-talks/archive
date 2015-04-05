@@ -1,0 +1,412 @@
+/** GENERAL **/
+body {
+	font-family: "AmaranthRegular", sans-serif;
+	min-height: 500px;
+	background-color: #ddd;
+	-webkit-font-smoothing: antialiased;
+}
+
+h1,h2,h3 {
+	font-family: "AmaranthRegular", sans-serif;
+    margin-bottom: 0.1em;
+}
+
+.heading {
+    font-size: 36px;
+}
+
+
+/* Title */
+.home {
+    color: #444 !important;
+}
+
+#title-author {
+    position: absolute;
+    bottom: 13px;
+    left: 420px;
+    color: #777;
+    text-shadow: none;
+    font-size: 24px;
+}
+
+#titlefooter {
+    position: absolute;
+    bottom: 13px;
+    right: 120px;
+    font-size: 18px;
+    color: #bdb19c;
+}
+
+.title h1 {
+    font-size: 100px !important;
+}
+
+.title h2 {
+    font-size: 40px;
+}
+
+/* ============================================== */
+
+.corp {
+    background: url('assets/img/consol_bg.jpg') ;
+    color: #000 !important;
+}
+
+div.slide-logo {
+    float: right;
+    width: 250px;
+    margin-top: 100px;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+/* ============================================== */
+
+.demo-slide {
+    background: url('assets/img/blau_bg.jpg');
+}
+
+.demo-slide .CodeMirror {
+    -moz-box-shadow: 5px 5px 5px #3e4453;
+    -webkit-box-shadow: 5px 5px 5px #3e4453;
+    box-shadow: 5px 5px 5px #3e4453;
+}
+
+.demo-slide div.demo {
+    background-color: #b7ebff;
+    color: #222;
+    -moz-box-shadow: 5px 5px 5px #3e4453;
+    -webkit-box-shadow: 5px 5px 5px #3e4453;
+    box-shadow: 5px 5px 5px #3e4453;
+}
+
+.javascript {
+    background-color: #1A1914 !important;
+    color: #fff !important;
+}
+
+.javascript code {
+    color: #d21412;
+}
+
+.jmx {
+    background-color: #B9E6FD !important;
+    color: #333 !important;
+}
+/* ============================================== */
+
+.jolokia {
+    background-color: #DAC5A6 !important;
+    color: #444 !important;
+}
+
+.demo-slide {
+    color: #333 !important;
+}
+/* ============================================== */
+
+.jolokia2 {
+    background-color: #000 !important;
+    color: #fff !important;
+}
+
+/*
+.jolokia2 h1 {
+    color: #c11311 !important;
+}
+
+.jolokia2 li:before {
+    color: #c11311 !important;;
+}
+
+.jolokia2 li ul li:before {
+    color: #c11311 !important;
+}
+*/
+
+.jolokia2 .CodeMirror {
+    -moz-box-shadow: 5px 5px 5px #3e4453;
+    -webkit-box-shadow: 5px 5px 5px #3e4453;
+    box-shadow: 5px 5px 5px #3e4453;
+}
+
+.jolokia2 div.chat-demo {
+    color: #222;
+    -moz-box-shadow: 5px 5px 5px #3e4453;
+    -webkit-box-shadow: 5px 5px 5px #3e4453;
+    box-shadow: 5px 5px 5px #3e4453;
+}
+
+.jolokia2 .chat-demo fieldset {
+    border-color: #000;
+}
+
+/* ============================================== */
+
+.hawtio {
+    background-color: #1E0908 !important;
+    color: #fff !important;
+}
+
+.hawtio h1 {
+    margin-right: -150px;
+    color: #b11815 !important;
+}
+
+/* ============================================== */
+
+.end {
+    color: #000 !important;
+}
+
+.veryend {
+    font-size: 16px !important;
+    color: #000 !important;
+}
+
+.veryend a {
+    color: #000 !important;
+    text-decoration: underline;
+}
+
+/* ============================================== */
+
+
+
+.slide h1 {
+    color: #821311;
+    font-size: 1.8em;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, .5) !important;
+}
+
+/** STEP STYLES **/
+.slide {
+	width: 1000px;
+    height: 700px;
+	font-size: 36px;
+	min-height: 500px;
+	background-color: white;
+
+	display: block;
+    padding: 10px 60px;
+    border-radius: 10px;
+
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
+    border: 1px solid rgba(0, 0, 0, .3);
+
+    color: rgb(102, 102, 102);
+    text-shadow: 0 2px 2px rgba(0, 0, 0, .1);
+
+    letter-spacing: -1px;
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing:    border-box;
+	-ms-box-sizing:     border-box;
+	-o-box-sizing:      border-box;
+	box-sizing:         border-box;
+
+	-webkit-transition: opacity 1s;
+	-moz-transition:    opacity 1s;
+	-ms-transition:     opacity 1s;
+	-o-transition:      opacity 1s;
+	transition:         opacity 1s;
+}
+
+.slide ul {
+    margin-left: 20px;
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.slide li {
+  padding-left: 1em;
+  text-indent: -1em;
+}
+
+.slide li:before {
+    content: "▸";
+    color: #821311;
+    font-size: 1.3em;
+    padding-right: 10px;
+}
+
+.slide li ul li {
+    font-size: 0.8em;
+}
+.slide li ul li:before {
+    content: "❖";
+    color: #821311;
+    font-size: 0.9em;
+    padding-right: 10px;
+}
+
+.slide button {
+    font-size: 24px;
+}
+
+/* fade out inactive slides */
+.step:not(.active) {
+	opacity: 0.3;
+}
+
+/* hint on the first slide */
+.hint {
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0px;
+
+	background: #333;
+	color: #fff;
+	text-align: right;
+
+	padding: 10px;
+	z-index: 100;
+
+	opacity: 0;
+
+	-webkit-transform: translateY(400px);
+	-moz-transform:    translateY(400px);
+	-ms-transform:     translateY(400px);
+	-o-transform:      translateY(400px);
+	transform:         translateY(400px);
+
+	-webkit-transition: opacity 1s, -webkit-transform 0.5s 1s;
+	-moz-transition:    opacity 1s,    -moz-transform 0.5s 1s;
+	-ms-transition:     opacity 1s,     -ms-transform 0.5s 1s;
+	-o-transition:      opacity 1s,      -o-transform 0.5s 1s;
+	transition:         opacity 1s,         transform 0.5s 1s;
+}
+.step-home + .hint {
+	opacity: 1;
+
+	-webkit-transition: opacity 1s 5s, -webkit-transform 0.5s;
+	-moz-transition:    opacity 1s 5s,    -moz-transform 0.5s;
+	-ms-transition:     opacity 1s 5s,     -ms-transform 0.5s;
+	-o-transition:      opacity 1s 5s,      -o-transform 0.5s;
+	transition:         opacity 1s 5s,         transform 0.5s;
+
+	-webkit-transform: translateY(0px);
+	-moz-transform:    translateY(0px);
+	-ms-transform:     translateY(0px);
+	-o-transform:      translateY(0px);
+	transform:         translateY(0px);
+}
+
+/** NOT SUPPORTED STYLES **/
+.not-supported .step {
+	position: relative;
+	opacity: 1;
+	margin: 20px auto;
+}
+
+#demo-chart .title,#demo-chart .value {
+    display: none;
+}
+
+/** PRINT STYLE **/
+@media print {
+	body {
+		background: white;
+	}
+	.hint {
+		display: none;
+	}
+	#simple {
+		width: auto;
+		margin: 0 5%;
+		padding: 0;
+		border: 0;
+		float: none !important;
+		color: black;
+		background: transparent;
+	}
+	.step {
+		page-break-after: always;
+		opacity: 1;
+		clear: both;
+		display: block;
+		float: none !important;
+		position: relative;
+		margin: 20px auto;
+
+		-webkit-transition: rotate(0deg);
+		-moz-transition:    rotate(0deg);
+		-ms-transition:     rotate(0deg);
+		-o-transition:      rotate(0deg);
+		transition:         rotate(0deg);
+	}
+	.step:not(.active) {
+		opacity: 1;
+	}
+}/* Generated by Font Squirrel (http://www.fontsquirrel.com) on June 23, 2013 09:38:14 AM America/New_York */
+
+@font-face {
+    font-family: 'AmaranthRegular';
+    src: url('assets/fonts/Amaranth-webfont.eot');
+    src: url('Amaranth-webfont.eot?#iefix') format('embedded-opentype'),
+         url('assets/fonts/Amaranth-webfont.woff') format('woff'),
+         url('assets/fonts/Amaranth-webfont.ttf') format('truetype'),
+         url('assets/fonts/Amaranth-webfont.svg#AmaranthRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'AmaranthItalic';
+    src: url('assets/fonts/Amaranth-Italic-webfont.eot');
+    src: url('assets/fonts/Amaranth-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('assets/fonts/Amaranth-Italic-webfont.woff') format('woff'),
+         url('assets/fonts/Amaranth-Italic-webfont.ttf') format('truetype'),
+         url('assets/fonts/Amaranth-Italic-webfont.svg#AmaranthItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'AmaranthBold';
+    src: url('assets/fonts/Amaranth-Bold-webfont.eot');
+    src: url('assets/fonts/Amaranth-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('assets/fonts/Amaranth-Bold-webfont.woff') format('woff'),
+         url('assets/fonts/Amaranth-Bold-webfont.ttf') format('truetype'),
+         url('assets/fonts/Amaranth-Bold-webfont.svg#AmaranthBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'AmaranthBoldItalic';
+    src: url('assets/fonts/Amaranth-BoldItalic-webfont.eot');
+    src: url('assets/fonts/Amaranth-BoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('assets/fonts/Amaranth-BoldItalic-webfont.woff') format('woff'),
+         url('assets/fonts/Amaranth-BoldItalic-webfont.ttf') format('truetype'),
+         url('assets/fonts/Amaranth-BoldItalic-webfont.svg#AmaranthBoldItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* Generated by Font Squirrel (http://www.fontsquirrel.com) on June 23, 2013 09:39:24 AM America/New_York */
+
+@font-face {
+    font-family: 'ChunkFiveRegular';
+    src: url('assets/fonts/Chunkfive-webfont.eot');
+    src: url('assets/fonts/Chunkfive-webfont.eot?#iefix') format('embedded-opentype'),
+         url('assets/fonts/Chunkfive-webfont.woff') format('woff'),
+         url('assets/fonts/Chunkfive-webfont.ttf') format('truetype'),
+         url('assets/fonts/Chunkfive-webfont.svg#ChunkFiveRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.boxshadow {
+    -moz-box-shadow: 10px 10px 5px #888;
+    -webkit-box-shadow: 10px 10px 5px #888;
+    box-shadow: 10px 10px 5px #888;
+}

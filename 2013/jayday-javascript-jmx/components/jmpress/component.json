@@ -1,0 +1,19 @@
+{
+  "name": "jmpress",
+  "version": "0.4.5",
+  "main": [
+    "./jmpress.js"
+  ],
+  "dependencies": {
+    "jquery": "~1.7.2"
+  },
+  "gitHead": "cbf476f8d6d609ae29ff50c2f2b4e296ab8e21d4",
+  "readme": "# jmpress.js (Version 0.4.5)\n\n> A jQuery plugin to build a website on the infinite canvas.\n\nThis is distribution branch of jmpress.js. Please use [the main branch](https://github.com/jmpressjs/jmpress.js) for development.\n\n## Install with [JamJS](http://jamjs.org)\n\n```\nnpm install -g jamjs    # If you dont already have jam\njam install jmpress\n```\n\n## Install with [BOWER](http://twitter.github.com/bower/)\n\n```\nnpm install -g bower    # If you dont already have bower\nbower install jmpress\n```\n",
+  "readmeFilename": "README.md",
+  "_id": "jmpress@0.4.5",
+  "description": "> A jQuery plugin to build a website on the infinite canvas.",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jmpressjs/dist"
+  }
+}

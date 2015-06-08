@@ -12,6 +12,7 @@
 
 # 2015
 
-* [JSR-363: On the way to a new Java EE Management Standard](https://ro14nd.de/talks/2015/javaland-2015-jsr-373.pdf) - JavaLand, Brühl, 2015
-* [Docker für Java Entwickler](https://ro14nd.de/talks/2015/javaland-2015-docker-fuer-java-entwickler.pdf) - JavaLand, Brühl, 2015
+* [JSR-363: On the way to a new Java EE Management Standard](https://ro14nd.de/talks/2015/javaland-2015-jsr-373.pdf) - JavaLand, Brühl, 03/2015
+* [Docker für Java Entwickler](https://ro14nd.de/talks/2015/javaland-2015-docker-fuer-java-entwickler.pdf) - JavaLand, Brühl, 03/2015
+* [fabric8 ... and Docker, Kubernetes & OpenShift](https://ro14nd.de/talks/2015/devopscon-2015-fabric8.pdf) - DevOpsCon, Berlin, 06/2015
 

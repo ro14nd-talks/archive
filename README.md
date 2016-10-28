@@ -22,13 +22,13 @@
 # 2016
 
 * Docker for Java Developers & fabric8 ... and Docker, Kubernetes & OpenShift - Java User Group Cologne, 1/2016
-* [Docker Patterns](https://github.com/ro14nd-talks/docker-patterns) - Javaland, Brühl, 3/2016 - [Slides](https://github.com/ro14nd-talks/docker-patterns/raw/master/slides.pdf), [Docker Image](https://hub.docker.com/r/rhuss/docker-patterns/)
-* [Kubernetes for Java Developers](https://github.com/ro14nd-talks/kubernetes-for-java-developers) - JAX, Mainz, 4/2016 - [Slides](https://github.com/ro14nd-talks/kubernetes-for-java-developers/raw/master/slides/kubernetes-for-java-developers.pdf), [Docker Image](https://hub.docker.com/r/rhuss/kubernetes-for-java-developers/)
+* **[Docker Patterns](https://github.com/ro14nd-talks/docker-patterns)** - Javaland, Brühl, 3/2016 - [Slides](https://github.com/ro14nd-talks/docker-patterns/raw/master/slides.pdf), [Docker Image](https://hub.docker.com/r/rhuss/docker-patterns/)
+* **[Kubernetes for Java Developers](https://github.com/ro14nd-talks/kubernetes-for-java-developers)** - JAX, Mainz, 4/2016 - [Slides](https://github.com/ro14nd-talks/kubernetes-for-java-developers/raw/master/slides/kubernetes-for-java-developers.pdf), [Docker Image](https://hub.docker.com/r/rhuss/kubernetes-for-java-developers/)
 * Docker Patterns - DevOpsCon, Berlin, 6/2016
 * Kubernetes for Java Developers - JBCNConf, Barcelona, 6/2016
 * Kubernetes for Java Developers - JUG Nürnberg, Nuremberg, 6/2016
 * Kubernetes for Java Developers - Docker Meetup Bamberg, Bamberg, 7/2016
-* [Jolokia 2.0](2016/javazone-2016-jolokia-2.pdf) - JavaZone, Oslo, 9/2016 - [Video](https://vimeo.com/181896821)
+* **[Jolokia 2.0](2016/javazone-2016-jolokia-2.pdf)** - JavaZone, Oslo, 9/2016 - [Video](https://vimeo.com/181896821)
 * Kubernetes for Java Developers - jugh!, Kassel, 9/2016, [Video (GER)](https://www.youtube.com/watch?v=R1nQFl_wQlE)
 * Jolokia 2.0 & Kubernetes for Java Developers - JavaSi'16, Portorož, 10/2016
 * Kubernetes for Java Developers - Devoxx MA, Casablanca, 11/2016

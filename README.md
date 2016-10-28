@@ -18,3 +18,20 @@
 * [Docker für Java Entwickler](https://ro14nd.de/talks/2015/jax-2015-docker-java.pdf) - JAX, Mainz, 4/2015
 * [fabric8](https://ro14nd.de/talks/2015/devoxx-2015-fabric8.pdf) - Devoxx, Antwerp, 11/2015 - [Video](https://www.youtube.com/watch?v=DCQ9SEdteHs)
 * [Howto grow Chili Peppers](https://ro14nd.de/talks/2015/devoxx-2015-howto-grow-chili-pepper.pdf) - Devoxx, Antwerp, 11/2015, Ignite Talk - [Presenter Notes](https://ro14nd.de/talks/2015/devoxx-2015-howto-grow-chili-pepper-notes.pdf)
+
+# 2016
+
+* Docker for Java Developers & fabric8 ... and Docker, Kubernetes & OpenShift - Java User Group Cologne, 1/2016
+* [Docker Patterns](https://github.com/ro14nd-talks/docker-patterns) - Javaland, Brühl, 3/2016 - [Slides](https://github.com/ro14nd-talks/docker-patterns/raw/master/slides.pdf), [Docker Image](https://hub.docker.com/r/rhuss/docker-patterns/)
+* [Kubernetes for Java Developers](https://github.com/ro14nd-talks/kubernetes-for-java-developers) - JAX, Mainz, 4/2016 - [Slides](https://github.com/ro14nd-talks/kubernetes-for-java-developers/raw/master/slides/kubernetes-for-java-developers.pdf), [Docker Image](https://hub.docker.com/r/rhuss/kubernetes-for-java-developers/)
+* Docker Patterns - DevOpsCon, Berlin, 6/2016
+* Kubernetes for Java Developers - JBCNConf, Barcelona, 6/2016
+* Kubernetes for Java Developers - JUG Nürnberg, Nuremberg, 6/2016
+* Kubernetes for Java Developers - Docker Meetup Bamberg, Bamberg, 7/2016
+* [Jolokia 2.0](2016/javazone-2016-jolokia-2.pdf) - JavaZone, Oslo, 9/2016 - [Video](https://vimeo.com/181896821)
+* Kubernetes for Java Developers - jugh!, Kassel, 9/2016, [Video (GER)](https://www.youtube.com/watch?v=R1nQFl_wQlE)
+* Jolokia 2.0 & Kubernetes for Java Developers - JavaSi'16, Portorož, 10/2016
+* Kubernetes for Java Developers - Devoxx MA, Casablanca, 11/2016
+* Docker Patterns - ContainerConf, Mannheim, 11/2016
+* [Kubernetes und OpenShift als Microservices Plattform](https://microservices-summit.de/session/kubernetes-und-openshift-als-microservices-plattform/Kubernetes for Java Developers - jugh!, Kassel, 9/2016, [Video (GER)](https://www.youtube.com/watch?v=R1nQFl_wQlE)) - MicroService Summit, Berlin, 11/2016
+* [Docker Container Loading](https://devopsconference.de/session/docker-container-loading/) - DevOpsCon 2016, Munich, 12/2016

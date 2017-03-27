@@ -33,5 +33,11 @@
 * Jolokia 2.0 & Kubernetes for Java Developers - JavaSi'16, Portorož, 10/2016
 * Kubernetes for Java Developers - Devoxx MA, Casablanca, 11/2016
 * Docker Patterns - ContainerConf, Mannheim, 11/2016
-* [Kubernetes und OpenShift als Microservices Plattform](https://microservices-summit.de/session/kubernetes-und-openshift-als-microservices-plattform/Kubernetes for Java Developers - jugh!, Kassel, 9/2016, [Video (GER)](https://www.youtube.com/watch?v=R1nQFl_wQlE)) - MicroService Summit, Berlin, 11/2016
-* [Docker Container Loading](https://devopsconference.de/session/docker-container-loading/) - DevOpsCon 2016, Munich, 12/2016
+* Kubernetes for Java Developers - jugh!, Kassel, 9/2016, [Video (GER)](https://www.youtube.com/watch?v=R1nQFl_wQlE)
+* **[Kubernetes und OpenShift als Microservices Plattform](https://microservices-summit.de/session/kubernetes-und-openshift-als-microservices-plattform)** - MicroService Summit, Berlin, 11/2016
+* **[Docker Container Loading](https://devopsconference.de/session/docker-container-loading/)** - DevOpsCon 2016, Munich, 12/2016
+
+# 2017
+
+* **[Kubernetes for Java Developers](https://www.meetup.com/de-DE/Munchen-Kubernetes-Meetup/events/237311449/)** - Kubernetes Meetup, Munich, 3/2017
+* **[Docker Container Loading](https://devopsconference.de/session/docker-container-loading/)** - DevOpsGathering 2017, Bochum, 3/2017

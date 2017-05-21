@@ -41,3 +41,6 @@
 
 * **[Kubernetes for Java Developers](https://www.meetup.com/de-DE/Munchen-Kubernetes-Meetup/events/237311449/)** - Kubernetes Meetup, Munich, 3/2017
 * **[Docker Container Loading](https://devopsconference.de/session/docker-container-loading/)** - DevOpsGathering 2017, Bochum, 3/2017
+* **[Docker Patterns](https://github.com/ro14nd-talks/docker-patterns/tree/jax2017)** - JAX Mainz, 5/2017
+* **[Kubernetes for Java Developers](https://github.com/ro14nd-talks/kubernetes-for-java-developers/tree/jax2017)** - JAX Mainz, 5/2017
+* **[Docker Patterns](https://github.com/ro14nd-talks/docker-patterns/tree/voxxed-athens)** - VoxxedDays Athens, 5/2017

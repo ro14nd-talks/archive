@@ -44,3 +44,5 @@
 * **[Docker Patterns](https://github.com/ro14nd-talks/docker-patterns/tree/jax2017)** - JAX Mainz, 5/2017
 * **[Kubernetes for Java Developers](https://github.com/ro14nd-talks/kubernetes-for-java-developers/tree/jax2017)** - JAX Mainz, 5/2017
 * **[Docker Patterns](https://github.com/ro14nd-talks/docker-patterns/tree/voxxed-athens)** - VoxxedDays Athens, 5/2017
+* **[Docker Container Loading](https://github.com/ro14nd-talks/docker-container-loading/tree/devopscon-berlin-2017)** - DevOpsCon 2017, Berlin, 6/2017
+* **[Docker Patterns](https://github.com/ro14nd-talks/docker-patterns/tree/jbcnconf-2017)** - JBCNConf Barcelona, 6/2017

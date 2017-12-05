@@ -43,6 +43,15 @@
 * **[Docker Container Loading](https://devopsconference.de/session/docker-container-loading/)** - DevOpsGathering 2017, Bochum, 3/2017
 * **[Docker Patterns](https://github.com/ro14nd-talks/docker-patterns/tree/jax2017)** - JAX Mainz, 5/2017
 * **[Kubernetes for Java Developers](https://github.com/ro14nd-talks/kubernetes-for-java-developers/tree/jax2017)** - JAX Mainz, 5/2017
-* **[Docker Patterns](https://github.com/ro14nd-talks/docker-patterns/tree/voxxed-athens)** - VoxxedDays Athens, 5/2017
-* **[Docker Container Loading](https://github.com/ro14nd-talks/docker-container-loading/tree/devopscon-berlin-2017)** - DevOpsCon 2017, Berlin, 6/2017
-* **[Docker Patterns](https://github.com/ro14nd-talks/docker-patterns/tree/jbcnconf-2017)** - JBCNConf Barcelona, 6/2017
+* **[Docker Patterns](https://github.com/ro14nd-talks/docker-patterns/tree/voxxed-athens)** - VoxxedDays Athens, 5/2017 | [Video](https://www.youtube.com/watch?v=m7ZKQgo1r6Q)
+* **[Docker Container Loading](https://devopsconference.de/container-technologies/docker-container-loading/)**, DevOpsCon Berlin, 6/2017
+* **[Docker Patterns](http://www.jbcnconf.com/2017/infoSpeaker.html?ref=roland-huss)**, JBCNConf Barcelona, 6/2017 | [Video](https://www.youtube.com/watch?v=UCC3Lso9GRU)
+* **[Docker Patterns](https://www.meetup.com/de-DE/Docker-Bamberg/events/240645574/)** - Docker Meetup Bamberg, 7/2017
+* **[Kuberenetes Patterns](https://2017.javazone.no/program/877bd912e4c340c0ad12ab27a9328611)**, JavaZone Oslo, 9/2017 | [Video](https://vimeo.com/233785743)
+* **[Java-Entwicklung im Zeitalter von Kubernetes und OpenShift](https://www.meetup.com/de-DE/DevOps-Frankfurt/events/241112360/)**, DevOps Meetup Frankfort, 10/2017
+* **[Docker und OpenShift](https://ithinkpark.de/)**, iThink Park Nuremberg, 10/2017
+* **[Kubernetes Patterns](https://www.meetup.com/de-DE/JUG-Nurnberg/events/244302832/)**, JUG Nuremberg, 11/2017
+* **[Java-Projekte für Kubernetes und OpenShift entwickeln](https://jax.de/cloud-container-serverless/java-projekte-fuer-kubernetes-und-openshift-entwickeln/)**, W-JAX Munich, 11/2017
+* **[Docker-Patterns – Best Practices aus der echten Welt](https://jax.de/cloud-container-serverless/docker-patterns-best-practices-aus-der-echten-welt/)**, W-JAX Munich, 11/2017
+* **[Become a Cloud-Native: Java Development in the Age of the Whale](https://devopsconference.de/container-technologies/become-a-cloud-native-java-development-in-the-age-of-the-whale/)**, DevOpsCon Munich, 11/2017
+* **[Kubernetes Pattern](https://devopsconference.de/container-technologies/kubernetes-patterns/)**, DevOpsCon Munich 11/2017

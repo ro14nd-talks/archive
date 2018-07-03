@@ -4,19 +4,27 @@
 
 # 2014
 
-* [Docker for (Java) Developers](https://ro14nd.de/talks/2014/docker-meetup/index.html) - Docker Munich Meetup #2, 2014, ConSol
-* [Jolokia - JMX on Capsaicin](https://ro14nd.de/talks/2014/javazone-jolokia.pdf) - JavaZone, 2014, Lightning Talk -  [Video](http://vimeo.com/105771547)
-* [Docker for Java Developers](https://ro14nd.de/talks/2014/docker-onedaytalk.pdf) - JBoss OneDayTalk, 2014, Germering
-* [Docker für Java Entwickler](https://ro14nd.de/talks/2014/wjax-docker-fuer-entwickler.pdf) - W-JAX14, 2014, Munich
-* [Spicing up JMX with Jolokia](https://ro14nd.de/talks/2014/devoxx/jolokia-devoxx-2014.pdf) - Devoxx 2014, Antwerp ([Demo code](https:wq://ro14nd.de/talks/2014/devoxx/jolokia-devoxx-2014-demo.tgz))
+* [Docker for (Java) Developers](https://github.com/ro14nd-talks/archive/raw/gh-pages/2014/docker-meetup/index.html) - Docker Munich Meetup #2, 2014, ConSol
+* [Jolokia - JMX on Capsaicin](https://github.com/ro14nd-talks/archive/raw/gh-pages/2014/javazone-jolokia.pdf) - JavaZone, 2014, Lightning Talk -  [Video](http://vimeo.com/105771547)
+* [Docker for Java Developers](https://github.com/ro14nd-talks/archive/raw/gh-pages/2014/docker-onedaytalk.pdf) - JBoss OneDayTalk, 2014, Germering
+* [Docker für Java Entwickler](https://github.com/ro14nd-talks/archive/raw/gh-pages/2014/wjax-docker-fuer-entwickler.pdf) - W-JAX14, 2014, Munich
+* [Spicing up JMX with Jolokia](https://github.com/ro14nd-talks/archive/raw/gh-pages/2014/devoxx/jolokia-devoxx-2014.pdf) - Devoxx 2014, Antwerp ([Demo code](https://github.com/ro14nd-talks/archive/raw/gh-pages/2014/devoxx/jolokia-devoxx-2014-demo.tgz))
 
 # 2015
 
+<<<<<<< HEAD
 * [JSR-373: On the way to a new Java EE Management Standard](https://ro14nd.de/talks/2015/javaland-2015-jsr-373.pdf) - JavaLand, Brühl, 03/2015
 * [Docker für Java Entwickler](https://ro14nd.de/talks/2015/javaland-2015-docker-fuer-java-entwickler.pdf) - JavaLand, Brühl, 03/2015
 * [fabric8 ... and Docker, Kubernetes & OpenShift](https://ro14nd.de/talks/2015/devopscon-2015-fabric8.pdf) - DevOpsCon, Berlin, 06/2015
 * [Docker für Java Entwickler](https://ro14nd.de/talks/2015/jax-2015-docker-java.pdf) - JAX, Mainz, 4/2015
 * [fabric8](https://ro14nd.de/talks/2015/devoxx-2015-fabric8.pdf) - Devoxx, Antwerp, 11/2015 - [Video](https://www.youtube.com/watch?v=DCQ9SEdteHs)
+=======
+* [JSR-363: On the way to a new Java EE Management Standard](https://github.com/ro14nd-talks/archive/raw/gh-pages/2015/javaland-2015-jsr-373.pdf) - JavaLand, Brühl, 03/2015
+* [Docker für Java Entwickler](https://github.com/ro14nd-talks/archive/raw/gh-pages/2015/javaland-2015-docker-fuer-java-entwickler.pdf) - JavaLand, Brühl, 03/2015
+* [fabric8 ... and Docker, Kubernetes & OpenShift](https://github.com/ro14nd-talks/archive/raw/gh-pages/2015/devopscon-2015-fabric8.pdf) - DevOpsCon, Berlin, 06/2015
+* [Docker für Java Entwickler](https://github.com/ro14nd-talks/archive/raw/gh-pages/2015/jax-2015-docker-java.pdf) - JAX, Mainz, 4/2015
+* [fabric8](https://github.com/ro14nd-talks/archive/raw/gh-pages/2015/devoxx-2015-fabric8.pdf) - Devoxx, Antwerp, 11/2015 - [Video](https://www.youtube.com/watch?v=DCQ9SEdteHs)
+>>>>>>> Update 2018
 * [Howto grow Chili Peppers](https://github.com/ro14nd-talks/archive/raw/gh-pages/2015/devoxx-2015-howto-grow-chili-pepper.pdf) - Devoxx, Antwerp, 11/2015, Ignite Talk - [Presenter Notes](https://github.com/ro14nd-talks/archive/raw/gh-pages/2015/devoxx-2015-howto-grow-chili-pepper-notes.pdf)
 
 # 2016
@@ -49,9 +57,29 @@
 * **[Docker Patterns](https://www.meetup.com/de-DE/Docker-Bamberg/events/240645574/)** - Docker Meetup Bamberg, 7/2017
 * **[Kubernetes Patterns](https://2017.javazone.no/program/877bd912e4c340c0ad12ab27a9328611)** - JavaZone Oslo, 9/2017 | [Video](https://vimeo.com/233785743)
 * **[Java-Entwicklung im Zeitalter von Kubernetes und OpenShift](https://www.meetup.com/de-DE/DevOps-Frankfurt/events/241112360/)**, DevOps Meetup Frankfort, 10/2017
-* **[Docker und OpenShift](https://ithinkpark.de/)** - iThink Park Nuremberg, 10/2017
-* **[Kubernetes Patterns](https://www.meetup.com/de-DE/JUG-Nurnberg/events/244302832/)** - JUG Nuremberg, 11/2017
-* **[Java-Projekte für Kubernetes und OpenShift entwickeln](https://jax.de/cloud-container-serverless/java-projekte-fuer-kubernetes-und-openshift-entwickeln/)** - W-JAX Munich, 11/2017
-* **[Docker-Patterns – Best Practices aus der echten Welt](https://jax.de/cloud-container-serverless/docker-patterns-best-practices-aus-der-echten-welt/)** - W-JAX Munich, 11/2017
-* **[Become a Cloud-Native: Java Development in the Age of the Whale](https://devopsconference.de/container-technologies/become-a-cloud-native-java-development-in-the-age-of-the-whale/)** - DevOpsCon Munich, 11/2017
-* **[Kubernetes Pattern](https://devopsconference.de/container-technologies/kubernetes-patterns/)** - DevOpsCon Munich 11/2017
+* **[Docker und OpenShift](https://ithinkpark.de/)**, iThink Park Nuremberg, 10/2017
+* **[Kubernetes Patterns](https://www.meetup.com/de-DE/JUG-Nurnberg/events/244302832/)**, JUG Nuremberg, 11/2017
+* **[Java-Projekte für Kubernetes und OpenShift entwickeln](https://jax.de/cloud-container-serverless/java-projekte-fuer-kubernetes-und-openshift-entwickeln/)**, W-JAX Munich, 11/2017
+* **[Docker-Patterns – Best Practices aus der echten Welt](https://jax.de/cloud-container-serverless/docker-patterns-best-practices-aus-der-echten-welt/)**, W-JAX Munich, 11/2017
+* **[Become a Cloud-Native: Java Development in the Age of the Whale](https://devopsconference.de/container-technologies/become-a-cloud-native-java-development-in-the-age-of-the-whale/)**, DevOpsCon Munich, 11/2017
+* **[Kubernetes Pattern](https://devopsconference.de/container-technologies/kubernetes-patterns/)**, DevOpsCon Munich 11/2017
+
+# 2018
+
+* **[Kubernetes Patterns](https://github.com/ro14nd-talks/kubernetes-patterns/blob/devopsgathering2018bochum/kubernetes-patterns-devopsgathering2018bochum.pdf)** - DevOps Gathering Bochum, 2/2018
+* **[Java-Entwicklung im Zeichen des Wales](https://github.com/ro14nd-talks/kubernetes-for-java-developers/blob/javaland2018/kubernetes-for-java-developers-javaland2018.pdf)** - JavaLand Brühl, 3/2018
+* **[Java Development in the age of the Whale](https://github.com/ro14nd-talks/kubernetes-for-java-developers/blob/jug-muenster/kubernetes-for-java-developers-jug-muenster.pdf)** - JUG Münster, 4/2018
+* **[Von Legacy zu Cloud](https://github.com/ro14nd-talks/archive/raw/gh-pages/2018/from-legacy-to-cloud.pdf)** - JAX Mainz, 4/2018
+* **[Kubernetes Patterns](https://github.com/ro14nd-talks/kubernetes-patterns/blob/jax2018mainz/kubernetes-patterns-jax2018mainz.pdf)** - JAX Mainz, 4/2018
+* **[iPaaS: Integration for non-techies](https://github.com/ro14nd-talks/archive/raw/gh-pages/2018/fuse-ignite-demo.pdf)** - Red Hat Summit San Francisco, 5/2018
+* **[Kubernetes Patterns](https://github.com/ro14nd-talks/kubernetes-patterns/blob/devopscon2018berlin/kubernetes-patterns-devopscon2018berlin.pdf)** - DevOpsCon Berlin, 5/2018
+* **[Kubernetes for Java developers](https://github.com/ro14nd-talks/kubernetes-for-java-developers/blob/objectforum2018-mannheim/kubernetes-for-java-developers-objectforum2018-mannheim.pdf)** - Objektforum Mannheim, 6/2018
+* **[Kubernetes Patterns](https://github.com/ro14nd-talks/kubernetes-patterns/blob/jugth2018jena/kubernetes-patterns-jugth2018jena.pdf)** - JUG Thüringen, Jena, 6/2018
+* **[From Legacy To Cloud](https://github.com/ro14nd-talks/archive/raw/gh-pages/2018/from-legacy-to-cloud.pdf)** - JBCNConf Barcelona, 6/2018
+* **Kubernetes Patterns** - Datev Hackerkegeln Nürnberg, 7/2018
+* **Kubernetes Patterns** - DevOps Meetup Würzburg, 7/2018
+* **Kubernetes Patterns** / **From Legacy to Cloud** - Objektforum München, 9/2018
+* **Kubernetes Patterns** - W-JAX, 11/2018
+* **Von Legacy zu Cloud** - W-JAX, 11/2018
+* **Shell Ninja: Mastering the Art of Shell Scripting** - DevOpsCon Muenchen, 12/2018
+* **From Legacy to Cloud** - DevOpsCon Muenchen, 12/2018

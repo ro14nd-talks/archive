@@ -25,7 +25,7 @@
 * **[Docker Patterns](https://github.com/ro14nd-talks/docker-patterns)** - Javaland, Brühl, 3/2016 - [Slides](https://github.com/ro14nd-talks/docker-patterns/raw/master/slides.pdf), [Docker Image](https://hub.docker.com/r/rhuss/docker-patterns/)
 * **[Kubernetes for Java Developers](https://github.com/ro14nd-talks/kubernetes-for-java-developers)** - JAX, Mainz, 4/2016 - [Slides](https://github.com/ro14nd-talks/kubernetes-for-java-developers/raw/master/slides/kubernetes-for-java-developers.pdf), [Docker Image](https://hub.docker.com/r/rhuss/kubernetes-for-java-developers/)
 * Docker Patterns - DevOpsCon, Berlin, 6/2016
-* Kubernetes for Java Developers - JBCNConf, Barcelona, 6/2016
+* Kubernetes for Java Developers - JBCNConf, Barcelona, 6/2016 | [Video](https://www.youtube.com/watch?v=Gjij2t14pfg)
 * Kubernetes for Java Developers - JUG Nürnberg, Nuremberg, 6/2016
 * Kubernetes for Java Developers - Docker Meetup Bamberg, Bamberg, 7/2016
 * **[Jolokia 2.0](2016/javazone-2016-jolokia-2.pdf)** - JavaZone, Oslo, 9/2016 - [Video](https://vimeo.com/181896821)
@@ -35,20 +35,20 @@
 * Docker Patterns - ContainerConf, Mannheim, 11/2016
 * Kubernetes for Java Developers - jugh!, Kassel, 9/2016, [Video (GER)](https://www.youtube.com/watch?v=R1nQFl_wQlE)
 * **[Kubernetes und OpenShift als Microservices Plattform](https://microservices-summit.de/session/kubernetes-und-openshift-als-microservices-plattform)** - MicroService Summit, Berlin, 11/2016
-* **[Docker Container Loading](https://devopsconference.de/session/docker-container-loading/)** - DevOpsCon 2016, Munich, 12/2016
+* **[Docker Container Loading](https://devopsconference.de/session/docker-container-loading/)** - DevOpsCon 2016, Munich, 12/2016 | [Interview](https://www.youtube.com/watch?v=Br0aqc4KaFI)
 
 # 2017
 
 * **[Kubernetes for Java Developers](https://www.meetup.com/de-DE/Munchen-Kubernetes-Meetup/events/237311449/)** - Kubernetes Meetup, Munich, 3/2017
-* **[Docker Container Loading](https://devopsconference.de/session/docker-container-loading/)** - DevOpsGathering 2017, Bochum, 3/2017
-* **[Docker Patterns](https://github.com/ro14nd-talks/docker-patterns/tree/jax2017)** - JAX Mainz, 5/2017
+* **[Docker Container Loading](https://devopsconference.de/session/docker-container-loading/)** - DevOpsGathering 2017, Bochum, 3/2017 | [Video](https://www.youtube.com/watch?v=VVXHVCK4BFI)
+* **[Docker Patterns](https://github.com/ro14nd-talks/docker-patterns/tree/jax2017)** - JAX Mainz, 5/2017 | [Interview](https://www.youtube.com/watch?v=goisiOqJxpE)
 * **[Kubernetes for Java Developers](https://github.com/ro14nd-talks/kubernetes-for-java-developers/tree/jax2017)** - JAX Mainz, 5/2017
 * **[Docker Patterns](https://github.com/ro14nd-talks/docker-patterns/tree/voxxed-athens)** - VoxxedDays Athens, 5/2017 | [Video](https://www.youtube.com/watch?v=m7ZKQgo1r6Q)
-* **[Docker Container Loading](https://devopsconference.de/container-technologies/docker-container-loading/)** - DevOpsCon Berlin, 6/2017
+* **[Docker Container Loading](https://devopsconference.de/container-technologies/docker-container-loading/)** - DevOpsCon Berlin, 6/2017 | [Interview](https://www.youtube.com/watch?v=1yH4iihLzxE)
 * **[Docker Patterns](http://www.jbcnconf.com/2017/infoSpeaker.html?ref=roland-huss)** - JBCNConf Barcelona, 6/2017 | [Video](https://www.youtube.com/watch?v=UCC3Lso9GRU)
 * **[Docker Patterns](https://www.meetup.com/de-DE/Docker-Bamberg/events/240645574/)** - Docker Meetup Bamberg, 7/2017
 * **[Kubernetes Patterns](https://2017.javazone.no/program/877bd912e4c340c0ad12ab27a9328611)** - JavaZone Oslo, 9/2017 | [Video](https://vimeo.com/233785743)
-* **[Java-Entwicklung im Zeitalter von Kubernetes und OpenShift](https://www.meetup.com/de-DE/DevOps-Frankfurt/events/241112360/)**, DevOps Meetup Frankfort, 10/2017
+* **[Java-Entwicklung im Zeitalter von Kubernetes und OpenShift](https://www.meetup.com/de-DE/DevOps-Frankfurt/events/241112360/)**, DevOps Meetup Frankfort, 10/2017 | [Interview](https://www.youtube.com/watch?v=IO130Zb_vDA)
 * **[Docker und OpenShift](https://ithinkpark.de/)**, iThink Park Nuremberg, 10/2017
 * **[Kubernetes Patterns](https://www.meetup.com/de-DE/JUG-Nurnberg/events/244302832/)**, JUG Nuremberg, 11/2017
 * **[Java-Projekte für Kubernetes und OpenShift entwickeln](https://jax.de/cloud-container-serverless/java-projekte-fuer-kubernetes-und-openshift-entwickeln/)**, W-JAX Munich, 11/2017
@@ -58,7 +58,7 @@
 
 # 2018
 
-* **[Kubernetes Patterns](https://github.com/ro14nd-talks/kubernetes-patterns/blob/devopsgathering2018bochum/kubernetes-patterns-devopsgathering2018bochum.pdf)** - DevOps Gathering Bochum, 2/2018
+* **[Kubernetes Patterns](https://github.com/ro14nd-talks/kubernetes-patterns/blob/devopsgathering2018bochum/kubernetes-patterns-devopsgathering2018bochum.pdf)** - DevOps Gathering Bochum, 2/2018 | [Video](https://www.youtube.com/watch?v=qqJnv20hq1E)
 * **[Java-Entwicklung im Zeichen des Wales](https://github.com/ro14nd-talks/kubernetes-for-java-developers/blob/javaland2018/kubernetes-for-java-developers-javaland2018.pdf)** - JavaLand Brühl, 3/2018
 * **[Java Development in the age of the Whale](https://github.com/ro14nd-talks/kubernetes-for-java-developers/blob/jug-muenster/kubernetes-for-java-developers-jug-muenster.pdf)** - JUG Münster, 4/2018
 * **[Von Legacy zu Cloud](https://github.com/ro14nd-talks/archive/raw/gh-pages/2018/from-legacy-to-cloud.pdf)** - JAX Mainz, 4/2018
@@ -66,7 +66,7 @@
 * **[iPaaS: Integration for non-techies](https://github.com/ro14nd-talks/archive/raw/gh-pages/2018/fuse-ignite-demo.pdf)** - Red Hat Summit San Francisco, 5/2018
 * **[Kubernetes Patterns](https://github.com/ro14nd-talks/kubernetes-patterns/blob/devopscon2018berlin/kubernetes-patterns-devopscon2018berlin.pdf)** - DevOpsCon Berlin, 5/2018
 * **[Kubernetes for Java developers](https://github.com/ro14nd-talks/kubernetes-for-java-developers/blob/objectforum2018-mannheim/kubernetes-for-java-developers-objectforum2018-mannheim.pdf)** - Objektforum Mannheim, 6/2018
-* **[Kubernetes Patterns](https://github.com/ro14nd-talks/kubernetes-patterns/blob/jugth2018jena/kubernetes-patterns-jugth2018jena.pdf)** - JUG Thüringen, Jena, 6/2018
+* **[Kubernetes Patterns](https://github.com/ro14nd-talks/kubernetes-patterns/blob/jugth2018jena/kubernetes-patterns-jugth2018jena.pdf)** - JUG Thüringen, Jena, 6/2018 | [Video](https://www.youtube.com/watch?v=q_803rWJQLw)
 * **[From Legacy To Cloud](https://github.com/ro14nd-talks/archive/raw/gh-pages/2018/from-legacy-to-cloud.pdf)** - JBCNConf Barcelona, 6/2018
 * **Kubernetes Patterns** - Datev Hackerkegeln Nürnberg, 7/2018
 * **Kubernetes Patterns** - DevOps Meetup Würzburg, 7/2018

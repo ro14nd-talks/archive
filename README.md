@@ -67,7 +67,7 @@
 * **[Kubernetes Patterns](https://github.com/ro14nd-talks/kubernetes-patterns/blob/devopscon2018berlin/kubernetes-patterns-devopscon2018berlin.pdf)** - DevOpsCon Berlin, 5/2018
 * **[Kubernetes for Java developers](https://github.com/ro14nd-talks/kubernetes-for-java-developers/blob/objectforum2018-mannheim/kubernetes-for-java-developers-objectforum2018-mannheim.pdf)** - Objektforum Mannheim, 6/2018
 * **[Kubernetes Patterns](https://github.com/ro14nd-talks/kubernetes-patterns/blob/jugth2018jena/kubernetes-patterns-jugth2018jena.pdf)** - JUG Thüringen, Jena, 6/2018 | [Video](https://www.youtube.com/watch?v=q_803rWJQLw)
-* **[From Legacy To Cloud](https://github.com/ro14nd-talks/archive/raw/gh-pages/2018/from-legacy-to-cloud.pdf)** - JBCNConf Barcelona, 6/2018
+* **[From Legacy To Cloud](https://github.com/ro14nd-talks/archive/raw/gh-pages/2018/from-legacy-to-cloud.pdf)** - JBCNConf Barcelona, 6/2018 | [Video](https://youtu.be/xDwJw3l0ENc)
 * **Kubernetes Patterns** - Datev Hackerkegeln Nürnberg, 7/2018
 * **Kubernetes Patterns** - DevOps Meetup Würzburg, 7/2018
 * **Kubernetes Patterns** / **From Legacy to Cloud** - Objektforum München, 9/2018

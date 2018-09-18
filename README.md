@@ -51,7 +51,7 @@
 * **[Java-Entwicklung im Zeitalter von Kubernetes und OpenShift](https://www.meetup.com/de-DE/DevOps-Frankfurt/events/241112360/)**, DevOps Meetup Frankfort, 10/2017 | [Interview](https://www.youtube.com/watch?v=IO130Zb_vDA)
 * **[Docker und OpenShift](https://ithinkpark.de/)**, iThink Park Nuremberg, 10/2017
 * **[Kubernetes Patterns](https://www.meetup.com/de-DE/JUG-Nurnberg/events/244302832/)**, JUG Nuremberg, 11/2017
-* **[Java-Projekte für Kubernetes und OpenShift entwickeln](https://jax.de/cloud-container-serverless/java-projekte-fuer-kubernetes-und-openshift-entwickeln/)**, W-JAX Munich, 11/2017
+* **[Java-Projekte für Kubernetes und OpenShift entwickeln](https://jax.de/cloud-container-serverless/java-projekte-fuer-kubernetes-und-openshift-entwickeln/)**, W-JAX Munich, 11/2017 | [Video](https://jaxenter.de/java-kubernetes-openshift-75025)
 * **[Docker-Patterns – Best Practices aus der echten Welt](https://jax.de/cloud-container-serverless/docker-patterns-best-practices-aus-der-echten-welt/)**, W-JAX Munich, 11/2017
 * **[Become a Cloud-Native: Java Development in the Age of the Whale](https://devopsconference.de/container-technologies/become-a-cloud-native-java-development-in-the-age-of-the-whale/)**, DevOpsCon Munich, 11/2017
 * **[Kubernetes Pattern](https://devopsconference.de/container-technologies/kubernetes-patterns/)**, DevOpsCon Munich 11/2017
@@ -70,8 +70,8 @@
 * **[From Legacy To Cloud](https://github.com/ro14nd-talks/archive/raw/gh-pages/2018/from-legacy-to-cloud.pdf)** - JBCNConf Barcelona, 6/2018 | [Video](https://youtu.be/xDwJw3l0ENc)
 * **Kubernetes Patterns** - Datev Hackerkegeln Nürnberg, 7/2018
 * **Kubernetes Patterns** - DevOps Meetup Würzburg, 7/2018
-* **Kubernetes Patterns** / **From Legacy to Cloud** - Objektforum München, 9/2018
 * **Kubernetes Patterns** - W-JAX, 11/2018
 * **Von Legacy zu Cloud** - W-JAX, 11/2018
+* **Kubernetes Patterns** - Devoxx Marocco, 11/2018
 * **Shell Ninja: Mastering the Art of Shell Scripting** - DevOpsCon Muenchen, 12/2018
 * **From Legacy to Cloud** - DevOpsCon Muenchen, 12/2018

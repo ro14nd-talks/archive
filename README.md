@@ -54,7 +54,7 @@
 * **[Java-Projekte für Kubernetes und OpenShift entwickeln](https://jax.de/cloud-container-serverless/java-projekte-fuer-kubernetes-und-openshift-entwickeln/)**, W-JAX Munich, 11/2017 | [Video](https://jaxenter.de/java-kubernetes-openshift-75025)
 * **[Docker-Patterns – Best Practices aus der echten Welt](https://jax.de/cloud-container-serverless/docker-patterns-best-practices-aus-der-echten-welt/)**, W-JAX Munich, 11/2017
 * **[Become a Cloud-Native: Java Development in the Age of the Whale](https://devopsconference.de/container-technologies/become-a-cloud-native-java-development-in-the-age-of-the-whale/)**, DevOpsCon Munich, 11/2017
-* **[Kubernetes Pattern](https://devopsconference.de/container-technologies/kubernetes-patterns/)**, DevOpsCon Munich 11/2017
+* **[Kubernetes Pattern](https://devopsconference.de/container-technologies/kubernetes-patterns/)**, DevOpsCon Munich 11/2017 | [Video](https://youtu.be/3vfsHc8uaLw)
 
 # 2018
 

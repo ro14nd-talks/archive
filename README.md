@@ -72,6 +72,6 @@
 * **Kubernetes Patterns** - DevOps Meetup Würzburg, 7/2018
 * **Kubernetes Patterns** - W-JAX, 11/2018
 * **Von Legacy zu Cloud** - W-JAX, 11/2018
-* **Kubernetes Patterns** - Devoxx Marocco, 11/2018
+* **[Kubernetes Patterns](2018/kubernetes-patterns-devoxx2018morocco.pdf)** - Devoxx Morocco, 11/2018
 * **Shell Ninja: Mastering the Art of Shell Scripting** - DevOpsCon Muenchen, 12/2018
 * **From Legacy to Cloud** - DevOpsCon Muenchen, 12/2018

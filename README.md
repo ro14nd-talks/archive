@@ -70,15 +70,16 @@
 * **[From Legacy To Cloud](https://github.com/ro14nd-talks/archive/raw/gh-pages/2018/from-legacy-to-cloud.pdf)** - JBCNConf Barcelona, 6/2018 | [Video](https://youtu.be/xDwJw3l0ENc)
 * **Kubernetes Patterns** - Datev Hackerkegeln Nürnberg, 7/2018
 * **Kubernetes Patterns** - DevOps Meetup Würzburg, 7/2018
+* **[Kubernetes Patterns: Foundational, Structural, Config and Advanced](https://www.youtube.com/watch?v=n3F9zJvG67c)** - DevNation Live, 10/2018 | [Video](https://www.youtube.com/watch?v=n3F9zJvG67c)
 * **Kubernetes Patterns** - W-JAX, 11/2018
 * **Von Legacy zu Cloud** - W-JAX, 11/2018
 * **[Kubernetes Patterns](2018/kubernetes-patterns-devoxx2018morocco.pdf)** - Devoxx Morocco, 11/2018
-* **Shell Ninja: Mastering the Art of Shell Scripting** - DevOpsCon Muenchen, 12/2018
+* **[Shell Ninja: Mastering the Art of Shell Scripting](https://www.youtube.com/watch?v=1mt2-LbKuvY)** - DevOpsCon Muenchen, 12/2018 | [Video](https://www.youtube.com/watch?v=1mt2-LbKuvY)
 * **From Legacy to Cloud** - DevOpsCon Muenchen, 12/2018
 
 # 2019
 
-* **[Kubernetes Operators]()** - DevOpsGathering Bochum, 3/2019 | [Video](https://youtu.be/ZVeiw9TyrWM)
+* **[Kubernetes Operators](2019/kubernetes-operators.pdf)** - DevOpsGathering Bochum, 3/2019 | [Video](https://youtu.be/ZVeiw9TyrWM)
 * **[Container Java](2019/container-java.pdf)** - Javaland Brühl, 3/2019
 * **Kubernetes Patterns** - JAX Mainz, 5/2019
 * **Wie fit ist Java für die Cloud?** - JAX Mainz, 5/2019

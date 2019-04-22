@@ -75,3 +75,13 @@
 * **[Kubernetes Patterns](2018/kubernetes-patterns-devoxx2018morocco.pdf)** - Devoxx Morocco, 11/2018
 * **Shell Ninja: Mastering the Art of Shell Scripting** - DevOpsCon Muenchen, 12/2018
 * **From Legacy to Cloud** - DevOpsCon Muenchen, 12/2018
+
+# 2019
+
+* **[Kubernetes Operators]()** - DevOpsGathering Bochum, 3/2019 | [Video](https://youtu.be/ZVeiw9TyrWM)
+* **[Container Java](2019/container-java.pdf)** - Javaland Brühl, 3/2019
+* **Kubernetes Patterns** - JAX Mainz, 5/2019
+* **Wie fit ist Java für die Cloud?** - JAX Mainz, 5/2019
+* **Kubernetes Patterns** - RivieraDev Sophia Antipolis, 5/2019
+* **Shell Ninja: Mastering the Art of Shell Scripting** - DevOpsCon Berlin, 6/2019
+* **The Status Quo of Kubernetes Operators** - DevOpsCon Berlin, 6/2019

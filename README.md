@@ -83,7 +83,7 @@
 * **[Container Java](2019/container-java.pdf)** - Javaland Brühl, 3/2019
 * **[Kubernetes Patterns](2019/kubernetes-patterns-jax-2019.pdf)** - JAX Mainz, 5/2019
 * **[Container Java](2019/container-java-jax-2019.pdf)** - JAX Mainz, 5/2019
-* **Kubernetes Patterns** - RivieraDev Sophia Antipolis, 5/2019
+* **[Kubernetes Patterns**](2019/kubernetes-patterns-rivieradev-2019.pdf) - RivieraDev Sophia Antipolis, 5/2019
 * **Shell Ninja: Mastering the Art of Shell Scripting** - DevOpsCon Berlin, 6/2019
 * **The Status Quo of Kubernetes Operators** - DevOpsCon Berlin, 6/2019
 * **Knative** - Container Days Hamburg, 6/2019

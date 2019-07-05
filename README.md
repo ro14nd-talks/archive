@@ -74,8 +74,8 @@
 * **Kubernetes Patterns** - W-JAX, 11/2018
 * **Von Legacy zu Cloud** - W-JAX, 11/2018
 * **[Kubernetes Patterns](2018/kubernetes-patterns-devoxx2018morocco.pdf)** - Devoxx Morocco, 11/2018
-* **[Shell Ninja: Mastering the Art of Shell Scripting](https://youtu.be/1mt2-LbKuvY)** - DevOpsCon Muenchen, 12/2018 | [Video](https://youtu.be/1mt2-LbKuvY)
-* **From Legacy to Cloud** - DevOpsCon Muenchen, 12/2018
+* **[Shell Ninja: Mastering the Art of Shell Scripting](https://youtu.be/1mt2-LbKuvY)** - DevOpsCon München, 12/2018 | [Video](https://youtu.be/1mt2-LbKuvY)
+* **From Legacy to Cloud** - DevOpsCon München, 12/2018
 
 # 2019
 

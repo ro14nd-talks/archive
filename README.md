@@ -71,8 +71,8 @@
 * **Kubernetes Patterns** - Datev Hackerkegeln Nürnberg, 7/2018
 * **Kubernetes Patterns** - DevOps Meetup Würzburg, 7/2018
 * **[Kubernetes Patterns: Foundational, Structural, Config and Advanced](https://www.youtube.com/watch?v=n3F9zJvG67c)** - DevNation Live, 10/2018 | [Video](https://www.youtube.com/watch?v=n3F9zJvG67c)
-* **Kubernetes Patterns** - W-JAX, 11/2018
-* **Von Legacy zu Cloud** - W-JAX, 11/2018
+* **Kubernetes Patterns** - W-JAX München, 11/2018
+* **Von Legacy zu Cloud** - W-JAX München, 11/2018
 * **[Kubernetes Patterns](2018/kubernetes-patterns-devoxx2018morocco.pdf)** - Devoxx Morocco, 11/2018
 * **[Shell Ninja: Mastering the Art of Shell Scripting](https://youtu.be/1mt2-LbKuvY)** - DevOpsCon München, 12/2018 | [Video](https://youtu.be/1mt2-LbKuvY)
 * **From Legacy to Cloud** - DevOpsCon München, 12/2018

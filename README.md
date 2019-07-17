@@ -86,4 +86,4 @@
 * **[Kubernetes Patterns](2019/kubernetes-patterns-rivieradev-2019.pdf)** - RivieraDev Sophia Antipolis, 5/2019
 * **Shell Ninja: Mastering the Art of Shell Scripting** - DevOpsCon Berlin, 6/2019
 * **[The Status Quo of Kubernetes Operators](2019/kubernetes-operators-devopscon-2019.pdf)** - DevOpsCon Berlin, 6/2019 | [Interview](https://www.youtube.com/watch?v=6BuutiPvw_g)
-* **[Knative](2019/knative-containerdays-2019.pdf)** - Container Days Hamburg, 6/2019
+* **[Knative](2019/knative-containerdays-2019.pdf)** - Container Days Hamburg, 6/2019 | [Video](https://www.youtube.com/watch?v=vat4CKx_HZY)

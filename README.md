@@ -85,5 +85,5 @@
 * **[Wie fit ist Java für die Cloud ?](2019/container-java-jax-2019.pdf)** - JAX Mainz, 5/2019 | [Video](https://www.youtube.com/watch?v=Euh_BQoDfZ0)
 * **[Kubernetes Patterns](2019/kubernetes-patterns-rivieradev-2019.pdf)** - RivieraDev Sophia Antipolis, 5/2019
 * **Shell Ninja: Mastering the Art of Shell Scripting** - DevOpsCon Berlin, 6/2019
-* **[The Status Quo of Kubernetes Operators](2019/kubernetes-operators-devopscon-2019.pdf)** - DevOpsCon Berlin, 6/2019 | [Video](https://www.youtube.com/watch?v=GY9giHDhqLs) [Interview](https://www.youtube.com/watch?v=6BuutiPvw_g)
+* **[The Status Quo of Kubernetes Operators](2019/kubernetes-operators-devopscon-2019.pdf)** - DevOpsCon Berlin, 6/2019 | [Video](https://www.youtube.com/watch?v=GY9giHDhqLs) | [Interview](https://www.youtube.com/watch?v=6BuutiPvw_g)
 * **[Knative](2019/knative-containerdays-2019.pdf)** - Container Days Hamburg, 6/2019 | [Video](https://www.youtube.com/watch?v=vat4CKx_HZY)

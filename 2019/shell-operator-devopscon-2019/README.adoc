@@ -1,0 +1,56 @@
+# Kubernetes Operators and how to implement them the Hard Way
+
+* Intro - Setup (Minikube)
+
+* Definition "Operator":
+
+> An operator is a Kubernetes controller that understands two domains: Kubernetes and something else. By combining knowledge of both areas, it can automate tasks that usually require a human operator that understands both domains.
+
+* Goal: Create an operator that restarts an application when its configuration changes
+
+## Controller
+
+* Introduce script
+
+  - Main loop
+  - How to watch events (curl explained)
+  - How to parse annotations
+  - How to create a label selector and delete pods
+
+* Create roles for allowing to watch configmaps and delete pods ("edit" role)
+* Put script into config map
+
+* Create dedicated namespace, use `kubns` to switch namespace
+
+```
+kubectl create configmap controller-script --from-file=./controller.sh
+```
+
+* Create Deployment
+  - ServiceAccount
+  - Sidecar explained
+
+* Create webapp (without config map) (with NodePort)
+* Curl webapp
+* Create config map
+* Change config map
+* Curl webapp
+
+* Delete namespace
+
+## Operator
+
+* Motivation
+
+* Check CRD and apply
+* Check CRD role and apply
+* Check with `kubectl get cw`
+* Review operator.sh
+* Apply operator.yml
+* Apply webapp.yml with node port
+* Curl
+* Change ConfigMap
+* Curl
+
+* Delete CW and change config map
+* Curl

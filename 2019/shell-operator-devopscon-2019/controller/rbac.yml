@@ -1,0 +1,20 @@
+# Service account required for watching to resources
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: config-watch-controller
+---
+
+# Bind to 'edit' role to allow for watching resources and restarting pods
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: config-watch-controller
+subjects:
+- kind: ServiceAccount
+  name: config-watch-controller
+roleRef:
+  name: edit
+  kind: ClusterRole
+  apiGroup: rbac.authorization.k8s.io
+---

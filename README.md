@@ -87,4 +87,7 @@
 * **Shell Ninja: Mastering the Art of Shell Scripting** - DevOpsCon Berlin, 6/2019
 * **[The Status Quo of Kubernetes Operators](2019/kubernetes-operators-devopscon-2019.pdf)** - DevOpsCon Berlin, 6/2019 | [Video](https://www.youtube.com/watch?v=GY9giHDhqLs) | [Interview](https://www.youtube.com/watch?v=6BuutiPvw_g)
 * **[Knative](2019/knative-containerdays-2019.pdf)** - Container Days Hamburg, 6/2019 | [Video](https://www.youtube.com/watch?v=vat4CKx_HZY)
-* **[Knative](2019/knative-serverless-architecture-2019.pdf)** - Serverless Architecture Conference Berlin, 10/2019
+* **[Modern event-driven Workloads with Knative](2019/knative-serverless-architecture-2019.pdf)** - Serverless Architecture Conference Berlin, 10/2019 | [Video](https://www.youtube.com/watch?v=VHfyvoV5qns)
+* **[Knative](2019/knative-wjax-munich-2019.pdf)** - W-JAX Munich, 11/2019
+* **[Kubernetes Operators and how to implement them the Hard Way](2019/shell-operator-devopscon-2019)** - DevOpsCon Munich, 12/2019
+* **[Serverless Workloads with Knative](knative-devopscon-munich-2019.pdf)** - DevOpsCon Munich, 12/2019

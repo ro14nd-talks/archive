@@ -1,0 +1,48 @@
+# Controller with kubeapi-proxy sidecar for easy access to the API server
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    project: k8spatterns
+    pattern: Controller
+  name: config-watch-controller
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: config-watch-controller
+  template:
+    metadata:
+      labels:
+        project: k8spatterns
+        pattern: Controller
+        app: config-watch-controller
+    spec:
+      # A serviceaccount is needed to watch events
+      # and to allow for restarting pods. For now its
+      # associated with the 'edit' role
+      serviceAccountName: config-watch-controller
+      containers:
+      - name: kubeapi-proxy
+        image: k8spatterns/kubeapi-proxy
+      - name: config-watcher
+        image: k8spatterns/curl-jq
+        env:
+         # The operator watches the namespace in which the controller
+         # itself is installed (by using the Downward API)
+         - name: WATCH_NAMESPACE
+           valueFrom:
+             fieldRef:
+               fieldPath: metadata.namespace
+        command:
+        - "sh"
+        - "/watcher/controller.sh"
+        # Mount script from a config map for ease of change
+        volumeMounts:
+        - mountPath: "/watcher"
+          name: controller-script
+      volumes:
+      # Volume holding the controller script
+      - name: controller-script
+        configMap:
+          name: controller-script

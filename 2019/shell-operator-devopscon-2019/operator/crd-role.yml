@@ -1,0 +1,12 @@
+# Role for allowing access to our CRD
+apiVersion: rbac.authorization.k8s.io/v1
+kind: Role
+metadata:
+  name: config-watcher-crd
+rules:
+- apiGroups:
+  - k8spatterns.io
+  resources:
+  - configwatchers
+  - configwatchers/finalizers
+  verbs: [ get, list, create, update, delete, deletecollection, watch ]

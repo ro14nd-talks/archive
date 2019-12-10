@@ -90,4 +90,4 @@
 * **[Modern event-driven Workloads with Knative](2019/knative-serverless-architecture-2019.pdf)** - Serverless Architecture Conference Berlin, 10/2019 | [Video](https://www.youtube.com/watch?v=VHfyvoV5qns)
 * **[Knative](2019/knative-wjax-munich-2019.pdf)** - W-JAX Munich, 11/2019
 * **[Kubernetes Operators and how to implement them the Hard Way](2019/shell-operator-devopscon-2019)** - DevOpsCon Munich, 12/2019
-* **[Serverless Workloads with Knative](knative-devopscon-munich-2019.pdf)** - DevOpsCon Munich, 12/2019
+* **[Serverless Workloads with Knative](2019/knative-devopscon-munich-2019.pdf)** - DevOpsCon Munich, 12/2019

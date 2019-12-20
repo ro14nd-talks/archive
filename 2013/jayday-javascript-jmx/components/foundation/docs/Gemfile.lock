@@ -14,7 +14,7 @@ GEM
     hike (1.2.1)
     libv8 (3.3.10.4)
     multi_json (1.6.1)
-    rack (1.6.11)
+    rack (1.6.12)
     redcarpet (2.2.2)
     sass (3.2.6)
     slop (3.3.2)

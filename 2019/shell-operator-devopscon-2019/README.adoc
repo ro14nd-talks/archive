@@ -20,7 +20,7 @@
 * Create roles for allowing to watch configmaps and delete pods ("edit" role)
 * Put script into config map
 
-* Create dedicated namespace, use `kubns` to switch namespace
+* Create dedicated namespace, use `kubens` to switch namespace
 
 ```
 kubectl create configmap controller-script --from-file=./controller.sh

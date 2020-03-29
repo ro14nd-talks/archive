@@ -91,3 +91,7 @@
 * **[Knative](2019/knative-wjax-munich-2019.pdf)** - W-JAX Munich, 11/2019
 * **[Kubernetes Operators and how to implement them the Hard Way](2019/shell-operator-devopscon-2019)** - DevOpsCon Munich, 12/2019
 * **[Serverless Workloads with Knative](2019/knative-devopscon-munich-2019.pdf)** - DevOpsCon Munich, 12/2019
+
+# 2020
+
+* **[Knative Introduction](2020/knative-cyberland-2020.pdf)** - Cyberland, 3/2020

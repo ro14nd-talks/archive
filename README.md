@@ -95,4 +95,4 @@
 # 2020
 
 * **[Knative Introduction](2020/knative-cyberland-2020.pdf)** - Cyberland, 3/2020
-* **[Kubernetes Patterns](2020/kubernetes-patterns-kubecon-2020.pdf)** - Virtual Kubecon, 8/2020
+* **[Kubernetes Patterns](2020/kubernetes-patterns-kubecon-2020.pdf)** - Kubecon EU, 8/2020

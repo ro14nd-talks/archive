@@ -15,7 +15,7 @@ GEM
     libv8 (3.3.10.4)
     multi_json (1.6.1)
     rack (1.6.12)
-    redcarpet (2.2.2)
+    redcarpet (3.5.1)
     sass (3.2.6)
     slop (3.3.2)
     sprockets (2.9.0)

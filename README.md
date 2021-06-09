@@ -1,5 +1,4 @@
 # 2013
-
 * [The Beauty and the Beast: JavaScript meets JMX](https://ro14nd.de/talks/2013/jayday-javascript-jmx/index.html) - JayDay 2013, Munich
 
 # 2014
@@ -95,4 +94,8 @@
 # 2020
 
 * **[Knative Introduction](2020/knative-cyberland-2020.pdf)** - Cyberland, 3/2020
-* **[Kubernetes Patterns](2020/kubernetes-patterns-kubecon-2020.pdf)** - Kubecon EU, 8/2020
+* **[Kubernetes Patterns](2020/kubernetes-patterns-kubecon-2020.pdf)** - Virtual Kubecon, 8/2020
+
+# 2021
+
+* **[Modern Event-Driven Workloads with Knative](2021/knative-j4kio-2021.pdf)** - j4k.io, 6/2021

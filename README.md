@@ -93,9 +93,21 @@
 
 # 2020
 
-* **[Knative Introduction](2020/knative-cyberland-2020.pdf)** - Cyberland, 3/2020
+* **[Knative Introduction](2020/knative-cyberland-2020.pdf)** - Cyberland, 3/2020 | [Video](https://www.youtube.com/watch?v=gBEq5CUvkYo)
+* **[Kubernetes Patterns](2020/kubernetes-patterns-microxchg-2020.pdf)** - microXchg pre-Event, 04/2020
+* **[Knative](2020/knative-microxchg-2020.pdf)** - microXchg pre-Event, 04/2020
+* **[Knative Introduction for the Curious Java Developer](2020/knative-intro-redhat-developer-webinar.pdf)** - Red Hat Developer Webinar, 5/2020 | [Video](https://primetime.bluejeans.com/a2m/events/playback/2d13c7cb-6f50-4624-ad3d-d8acdfd3be17)
+* **Modern event-driven workloads with OpenShift Serverless** - Red Hat Virtual Summit, 5/2020 | [Video](https://developers.redhat.com/summit/2020/event-driven-openshift-serverless)
 * **[Kubernetes Patterns](2020/kubernetes-patterns-kubecon-2020.pdf)** - Virtual Kubecon, 8/2020
+* **[The Serverless Framework meets Knative with OpenShift Serverless](https://www.youtube.com/watch?v=HB_oPWOrzOg)** - openshift.tv, 10/2020
+* **[Serverless with Knative](2020/knative-jax-2020.pdf)** - JAX, 10/2020
+* **[Serverless mit Knative](2020/knative-jcon-2020.pdf)** - JCON Online, 10/2020
+* **[KubeCon Office Hours: Event-Driven Applications with Knative](https://www.youtube.com/watch?v=6gjvuOdc6-c&t=1819s)** - openshift.tv, 11/2020
 
 # 2021
 
-* **[Modern Event-Driven Workloads with Knative](2021/knative-j4kio-2021.pdf)** - j4k.io, 6/2021
+* **[AMA: Knative Introduction and Road Map Update](https://www.youtube.com/watch?v=PWJMDWo1An0)** - openshift.tv, 01/2021
+* **[OpenShift Commons Briefing on Knative Project](https://www.youtube.com/watch?v=K0qZW_xf2ew)** - openshift.tv, 01/2021
+* **[Modern event-driven Workloads with Knative](2021/knative-j4k-2021.pdf)** - j4k.io, 6/2021 | [Video](https://www.youtube.com/watch?v=upiFo-gCi_U)
+* **[The Level Up Hour (E49): Getting started with Serverless](https://www.youtube.com/watch?v=7SUHIbEQFPQ)** - openshift.tv, 10/2021
+* **[Modern Event Driven Workloads with Knative](2021/knative-wjax-2021.pdf)** - W-JAX Munich, 11/2021

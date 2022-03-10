@@ -101,7 +101,7 @@
 * **[Kubernetes Patterns](2020/kubernetes-patterns-kubecon-2020.pdf)** - Virtual Kubecon, 8/2020
 * **[The Serverless Framework meets Knative with OpenShift Serverless](https://www.youtube.com/watch?v=HB_oPWOrzOg)** - openshift.tv, 10/2020
 * **[Serverless with Knative](2020/knative-jax-2020.pdf)** - JAX, 10/2020
-* **[Serverless mit Knative](2020/knative-jcon-2020.pdf)** - JCON Online, 10/2020
+* **[Serverless mit Knative](2020/knative-jcon-2020.pdf)** - JCON Online, 10/2020 | [Video](https://youtu.be/BVdI2JNhAC4)
 * **[KubeCon Office Hours: Event-Driven Applications with Knative](https://www.youtube.com/watch?v=6gjvuOdc6-c&t=1819s)** - openshift.tv, 11/2020
 
 # 2021

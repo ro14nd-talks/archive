@@ -98,7 +98,7 @@
 * **[Knative](2020/knative-microxchg-2020.pdf)** - microXchg pre-Event, 04/2020
 * **[Knative Introduction for the Curious Java Developer](2020/knative-intro-redhat-developer-webinar.pdf)** - Red Hat Developer Webinar, 5/2020 | [Video](https://primetime.bluejeans.com/a2m/events/playback/2d13c7cb-6f50-4624-ad3d-d8acdfd3be17)
 * **Modern event-driven workloads with OpenShift Serverless** - Red Hat Virtual Summit, 5/2020 | [Video](https://developers.redhat.com/summit/2020/event-driven-openshift-serverless)
-* **[Kubernetes Patterns](2020/kubernetes-patterns-kubecon-2020.pdf)** - Virtual Kubecon, 8/2020
+* **[Kubernetes Patterns](2020/kubernetes-patterns-kubecon-2020.pdf)** - Virtual Kubecon, 8/2020 | [Video](https://youtu.be/eJmNSYvelSw)
 * **[The Serverless Framework meets Knative with OpenShift Serverless](https://www.youtube.com/watch?v=HB_oPWOrzOg)** - openshift.tv, 10/2020
 * **[Serverless with Knative](2020/knative-jax-2020.pdf)** - JAX, 10/2020
 * **[Serverless mit Knative](2020/knative-jcon-2020.pdf)** - JCON Online, 10/2020 | [Video](https://youtu.be/BVdI2JNhAC4)

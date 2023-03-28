@@ -111,3 +111,14 @@
 * **[Modern event-driven Workloads with Knative](2021/knative-j4k-2021.pdf)** - j4k.io, 6/2021 | [Video](https://www.youtube.com/watch?v=upiFo-gCi_U)
 * **[The Level Up Hour (E49): Getting started with Serverless](https://www.youtube.com/watch?v=7SUHIbEQFPQ)** - openshift.tv, 10/2021
 * **[Modern Event Driven Workloads with Knative](2021/knative-wjax-2021.pdf)** - W-JAX Munich, 11/2021
+
+# 2022
+
+* **[Connecting the World to Knative with Kamelets](2022/knative-kamelet-knativecon-valencia-2022.pdf)** - KnativeCon Valencia, 05/2022 | [Video](https://youtu.be/Abxp_HW6lJE)
+* **[Containerful Serverless](2022/containerful-serverless-jax-2022.pdf)** - JAX Mainz, 03/2022
+* **[Containerful Serverless](2022/containerful-serverless-devopscon-berlin-2022.pdf)** - DevOpsCon Berlin, 
+* **[Elastic Kubernetes](2022/elastic-kubernetes-devopscon-munich-2022.pdf)** - DevOpsCon Munich, 11/2022
+* **[Modern event-driven Workloads with Knative](2022/knative-wjax-2022.pdf)** --  W-JAX Munich, 12/2022
+* **[Containerful Serverless](2022/containerful-serverless-wjax-2022.pdf)** -- W-JAX Munich, 12/2022
+
+# 2023

@@ -115,10 +115,11 @@
 # 2022
 
 * **[Connecting the World to Knative with Kamelets](2022/knative-kamelet-knativecon-valencia-2022.pdf)** - KnativeCon Valencia, 05/2022 | [Video](https://youtu.be/Abxp_HW6lJE)
-* **[Containerful Serverless](2022/containerful-serverless-jax-2022.pdf)** - JAX Mainz, 03/2022
+* **[theCube - Interview](https://youtu.be/JVFQZYfGk3U)** - KubeCon Valencia, 05/2022
+* **[containerful Serverless](2022/containerful-serverless-jax-2022.pdf)** - JAX Mainz, 03/2022
 * **[Containerful Serverless](2022/containerful-serverless-devopscon-berlin-2022.pdf)** - DevOpsCon Berlin, 
 * **[Elastic Kubernetes](2022/elastic-kubernetes-devopscon-munich-2022.pdf)** - DevOpsCon Munich, 11/2022
-* **[Modern event-driven Workloads with Knative](2022/knative-wjax-2022.pdf)** --  W-JAX Munich, 12/2022
-* **[Containerful Serverless](2022/containerful-serverless-wjax-2022.pdf)** -- W-JAX Munich, 12/2022
+* **[Modern event-driven Workloads with Knative](2022/knative-wjax-2022.pdf)** -  W-JAX Munich, 12/2022
+* **[Containerful Serverless](2022/containerful-serverless-wjax-2022.pdf)** - W-JAX Munich, 12/2022
 
 # 2023

@@ -83,7 +83,7 @@
 * **[Kubernetes Patterns](2019/kubernetes-patterns-jax-2019.pdf)** - JAX Mainz, 5/2019
 * **[Wie fit ist Java für die Cloud ?](2019/container-java-jax-2019.pdf)** - JAX Mainz, 5/2019 | [Video](https://www.youtube.com/watch?v=Euh_BQoDfZ0)
 * **[Kubernetes Patterns](2019/kubernetes-patterns-rivieradev-2019.pdf)** - RivieraDev Sophia Antipolis, 5/2019
-* **Shell Ninja: Mastering the Art of Shell Scripting** - DevOpsCon Berlin, 6/2019
+* **Shell Ninja: Mastering the Art of Shell Scripting** - DevOpsCon Berlin, 6/2019 | [Video](https://youtu.be/1mt2-LbKuvY) | [Interview](https://youtu.be/VRjnhOljPuI)
 * **[The Status Quo of Kubernetes Operators](2019/kubernetes-operators-devopscon-2019.pdf)** - DevOpsCon Berlin, 6/2019 | [Video](https://www.youtube.com/watch?v=GY9giHDhqLs) | [Interview](https://www.youtube.com/watch?v=6BuutiPvw_g)
 * **[Knative](2019/knative-containerdays-2019.pdf)** - Container Days Hamburg, 6/2019 | [Video](https://www.youtube.com/watch?v=vat4CKx_HZY)
 * **[Modern event-driven Workloads with Knative](2019/knative-serverless-architecture-2019.pdf)** - Serverless Architecture Conference Berlin, 10/2019 | [Video](https://www.youtube.com/watch?v=VHfyvoV5qns)
@@ -116,10 +116,19 @@
 
 * **[Connecting the World to Knative with Kamelets](2022/knative-kamelet-knativecon-valencia-2022.pdf)** - KnativeCon Valencia, 05/2022 | [Video](https://youtu.be/Abxp_HW6lJE)
 * **[theCube - Interview](https://youtu.be/JVFQZYfGk3U)** - KubeCon Valencia, 05/2022
-* **[containerful Serverless](2022/containerful-serverless-jax-2022.pdf)** - JAX Mainz, 03/2022
-* **[Containerful Serverless](2022/containerful-serverless-devopscon-berlin-2022.pdf)** - DevOpsCon Berlin, 
+* **[Containerful Serverless](2022/containerful-serverless-jax-2022.pdf)** - JAX Mainz, 03/2022
+* **[Containerful Serverless](2022/containerful-serverless-devopscon-berlin-2022.pdf)** - DevOpsCon Berlin, 06/2022
+* **[Keynote: Containerful Serverless](2023/containerful-serverless-knativecon-2022.pdf)** - KnativeCon NA Detroit, 10/2022 | [Video](https://youtu.be/3-0zVtWqwCE?si=jf01gi2ItZc_zO-B)
 * **[Elastic Kubernetes](2022/elastic-kubernetes-devopscon-munich-2022.pdf)** - DevOpsCon Munich, 11/2022
 * **[Modern event-driven Workloads with Knative](2022/knative-wjax-2022.pdf)** -  W-JAX Munich, 12/2022
 * **[Containerful Serverless](2022/containerful-serverless-wjax-2022.pdf)** - W-JAX Munich, 12/2022
 
 # 2023
+
+* **[Knative's Road Ahead: A Project Update](2023/knative-project-update-2023.pdf)** - KubeCon EU Amsterdam,  04/2023 - https://youtu.be/kjMjOJqg80A?si=zkAzuNpv-hJv-4DH
+* **Hands-on Knative** - DevOpsCon Berlin, 06/2023
+* **[Kubernetes Patterns](kubernetes-patterns-dwx-2023.pdf)** - DWX Nuremberg, 06/2023
+* **[All Cloud-Native Services Are Vulnerable — Block Exploits with Security Behavior Analytics](2023/sba-kubecon-na-2023.pdf)** - KubeCon NA Chicago, 11/2023 | [Video](https://youtu.be/3-0zVtWqwCE?si=jf01gi2ItZc_zO-B)
+* **Hands-on Knative: A Practical Dive into Serverless with Kubernetes** - DevOpsCon Munich, 12/2023
+
+

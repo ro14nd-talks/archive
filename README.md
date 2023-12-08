@@ -129,6 +129,6 @@
 * **Hands-on Knative** - DevOpsCon Berlin, 06/2023
 * **[Kubernetes Patterns](kubernetes-patterns-dwx-2023.pdf)** - DWX Nuremberg, 06/2023
 * **[All Cloud-Native Services Are Vulnerable — Block Exploits with Security Behavior Analytics](2023/sba-kubecon-na-2023.pdf)** - KubeCon NA Chicago, 11/2023 | [Video](https://youtu.be/3-0zVtWqwCE?si=jf01gi2ItZc_zO-B)
-* **Hands-on Knative: A Practical Dive into Serverless with Kubernetes** - DevOpsCon Munich, 12/2023
+* **[Hands-on Knative: A Practical Dive into Serverless with Kubernetes](2023/knative-devopscon-munich-2023.pdf)** - DevOpsCon Munich, 12/2023
 
 

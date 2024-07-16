@@ -131,4 +131,8 @@
 * **[All Cloud-Native Services Are Vulnerable — Block Exploits with Security Behavior Analytics](2023/sba-kubecon-na-2023.pdf)** - KubeCon NA Chicago, 11/2023 | [Video](https://youtu.be/3-0zVtWqwCE?si=jf01gi2ItZc_zO-B)
 * **[Hands-on Knative: A Practical Dive into Serverless with Kubernetes](2023/knative-devopscon-munich-2023.pdf)** - DevOpsCon Munich, 12/2023
 
+# 2024
 
+* **[Deploying Your Apps to Kubernetes Without the Boilerplate](2024/appdevelopercon-jkube-paris-2024.pdf)**, AppDeveloperCon, 03/2024 | [Video](https://youtu.be/uk7mpCdIIZc?si=IcJAqEO0NQ02L29u)
+* **[10 Years of Kubernetes Patterns Evolution](2024/kubecon-kubernetes-patterns-paris-2024.pdf)** KubeCon EU Paris, 03/2024 | [Video](https://www.youtube.com/watch?v=SDV9Q1UKRu4)
+dr

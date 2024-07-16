@@ -135,4 +135,4 @@
 
 * **[Deploying Your Apps to Kubernetes Without the Boilerplate](2024/appdevelopercon-jkube-paris-2024.pdf)**, AppDeveloperCon, 03/2024 | [Video](https://youtu.be/uk7mpCdIIZc?si=IcJAqEO0NQ02L29u)
 * **[10 Years of Kubernetes Patterns Evolution](2024/kubecon-kubernetes-patterns-paris-2024.pdf)** KubeCon EU Paris, 03/2024 | [Video](https://www.youtube.com/watch?v=SDV9Q1UKRu4)
-dr
+

@@ -127,7 +127,7 @@
 
 * **[Knative's Road Ahead: A Project Update](2023/knative-project-update-2023.pdf)** - KubeCon EU Amsterdam,  04/2023 | [Video](https://youtu.be/kjMjOJqg80A)
 * **Hands-on Knative** - DevOpsCon Berlin, 06/2023
-* **[Kubernetes Patterns](kubernetes-patterns-dwx-2023.pdf)** - DWX Nuremberg, 06/2023
+* **[Kubernetes Patterns](2023/kubernetes-patterns-dwx-2023.pdf)** - DWX Nuremberg, 06/2023
 * **[All Cloud-Native Services Are Vulnerable — Block Exploits with Security Behavior Analytics](2023/sba-kubecon-na-2023.pdf)** - KubeCon NA Chicago, 11/2023 | [Video](https://youtu.be/3-0zVtWqwCE?si=jf01gi2ItZc_zO-B)
 * **[Hands-on Knative: A Practical Dive into Serverless with Kubernetes](2023/knative-devopscon-munich-2023.pdf)** - DevOpsCon Munich, 12/2023
 
@@ -136,3 +136,7 @@
 * **[Deploying Your Apps to Kubernetes Without the Boilerplate](2024/appdevelopercon-jkube-paris-2024.pdf)**, AppDeveloperCon, 03/2024 | [Video](https://youtu.be/uk7mpCdIIZc?si=IcJAqEO0NQ02L29u)
 * **[10 Years of Kubernetes Patterns Evolution](2024/kubecon-kubernetes-patterns-paris-2024.pdf)** KubeCon EU Paris, 03/2024 | [Video](https://www.youtube.com/watch?v=SDV9Q1UKRu4)
 
+# 2025
+
+* **[Kubernetes Patterns](2025/kubernetes-patterns-jax-2025.pdf)**, JAX Mainz, 05/2025
+* **[Hands-on Knative](2025/knative-jax-2025.pdf)**, JAX Mainz, 05/2025

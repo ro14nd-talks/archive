@@ -13,7 +13,7 @@ GEM
       thor (>= 0.13.6)
     json (2.6.3)
     libv8 (3.3.10.4)
-    rack (2.2.14)
+    rack (2.2.20)
     redcarpet (3.5.1)
     sass (3.2.6)
     slop (3.3.2)

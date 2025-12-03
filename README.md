@@ -140,3 +140,5 @@
 
 * **[Kubernetes Patterns](2025/kubernetes-patterns-jax-2025.pdf)**, JAX Mainz, 05/2025
 * **[Hands-on Knative](2025/knative-jax-2025.pdf)**, JAX Mainz, 05/2025
+* **[GPUs on Kubernetes Unlocked](2025/gpus-on-k8s-unlocked-slides.pdf)**, DevOpsCon Munich, 12/2025
+* **[Lifting Large Language Models on Kubernetes](2025/lifting-llms-on-k8s-slides.pdf)**, DevOpsCon Munich, 12/2025

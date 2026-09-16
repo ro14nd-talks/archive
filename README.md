@@ -142,3 +142,8 @@
 * **[Hands-on Knative](2025/knative-jax-2025.pdf)**, JAX Mainz, 05/2025
 * **[GPUs on Kubernetes Unlocked](2025/gpus-on-k8s-unlocked-slides.pdf)**, DevOpsCon Munich, 12/2025
 * **[Lifting Large Language Models on Kubernetes](2025/lifting-llms-on-k8s-slides.pdf)**, DevOpsCon Munich, 12/2025
+
+# 2026
+
+* **[Spec-Driven Development](2026/sdd-codeeurope-2026.pdf)**, Code Europe Warsaw, 09/2026
+* **[Securing AI Agents on Kubernetes](2026/agent-security-codeeurope-2026.pdf)**, Code Europe Warsaw, 09/2026 | [Demo](https://github.com/rhuss/openshell-obo-demo) | [Resources](https://gist.github.com/rhuss/a2a815d81753ec91192174838413b9a5)

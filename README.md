@@ -145,5 +145,5 @@
 
 # 2026
 
-* **[Spec-Driven Development](2026/sdd-codeeurope-2026.pdf)**, Code Europe Warsaw, 09/2026
+* **[Spec-Driven Development](2026/sdd-codeeurope-2026.pdf)**, Code Europe Warsaw, 09/2026 | [Resources](https://gist.github.com/rhuss/008dae570b35a3413e7ac0439f306dfc)
 * **[Securing AI Agents on Kubernetes](2026/agent-security-codeeurope-2026.pdf)**, Code Europe Warsaw, 09/2026 | [Demo](https://github.com/rhuss/openshell-obo-demo) | [Resources](https://gist.github.com/rhuss/a2a815d81753ec91192174838413b9a5)
